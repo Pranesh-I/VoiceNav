@@ -38,3 +38,7 @@ export { discoverRoutes } from './routes/index.js';
 
 // Handler discovery (A2) — side-effect import registers agnostic pass
 import './handlers/index.js';
+
+// API Endpoint discovery (A3) — side-effect import registers agnostic pass
+import './api/index.js';
+
