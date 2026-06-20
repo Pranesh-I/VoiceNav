@@ -35,3 +35,6 @@ export type { DiscoveryPass } from './orchestrator.js';
 
 // Route discovery (A1) — side-effect import registers framework passes
 export { discoverRoutes } from './routes/index.js';
+
+// Handler discovery (A2) — side-effect import registers agnostic pass
+import './handlers/index.js';
