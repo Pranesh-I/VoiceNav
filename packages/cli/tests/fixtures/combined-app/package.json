@@ -1,0 +1,7 @@
+{
+  "name": "combined-app",
+  "dependencies": {
+    "react-router-dom": "^6.0.0",
+    "express": "^4.0.0"
+  }
+}

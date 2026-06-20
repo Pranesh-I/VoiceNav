@@ -128,9 +128,29 @@ export async function discoverCapabilities(
     }
   }
 
+  // 5. Deduplicate identical capabilities (same id)
+  const dedupedGraph: CapabilityGraph = [];
+  const seenKeys = new Set<string>();
+
+  for (const cap of graph) {
+    const key = `${cap.type}:${cap.sourceFile}:${cap.sourceLocation}`;
+    if (!seenKeys.has(key)) {
+      seenKeys.add(key);
+      dedupedGraph.push(cap);
+    }
+  }
+
+  // 6. Sort deterministically
+  dedupedGraph.sort((a, b) => {
+    if (a.type !== b.type) return a.type.localeCompare(b.type);
+    if (a.sourceFile !== b.sourceFile) return a.sourceFile.localeCompare(b.sourceFile);
+    return a.sourceLocation.localeCompare(b.sourceLocation);
+  });
+
   console.info(
-    `[VoiceNav/orchestrator] Discovery complete. ${graph.length} capability/capabilities found.`,
+    `[VoiceNav/orchestrator] Discovery complete. ${dedupedGraph.length} capability/capabilities found.`,
   );
 
-  return graph;
+  return dedupedGraph;
 }
+

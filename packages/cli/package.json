@@ -12,6 +12,9 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "bin": {
+    "voicenav": "./dist/src/cli.js"
+  },
   "scripts": {
     "build": "tsc --project tsconfig.json",
     "test": "vitest run",

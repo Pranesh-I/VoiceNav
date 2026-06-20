@@ -1,0 +1,235 @@
+[
+  {
+    "id": "cc72f291aee1c6df",
+    "type": "api_endpoint",
+    "sourceFile": "server/app.ts",
+    "sourceLocation": "6:0",
+    "metadata": {
+      "method": "GET",
+      "path": "/api/tasks",
+      "pathParams": [],
+      "sourceType": "express"
+    }
+  },
+  {
+    "id": "714f18abde43af32",
+    "type": "api_endpoint",
+    "sourceFile": "server/app.ts",
+    "sourceLocation": "7:0",
+    "metadata": {
+      "method": "POST",
+      "path": "/api/tasks",
+      "pathParams": [],
+      "sourceType": "express"
+    }
+  },
+  {
+    "id": "5a25a4855c4f94b7",
+    "type": "api_endpoint",
+    "sourceFile": "server/app.ts",
+    "sourceLocation": "9:0",
+    "metadata": {
+      "method": "DELETE",
+      "path": "/api/tasks/:id",
+      "pathParams": [
+        "id"
+      ],
+      "sourceType": "express"
+    }
+  },
+  {
+    "id": "68bc35eb8c159998",
+    "type": "api_endpoint",
+    "sourceFile": "server/openapi.json",
+    "sourceLocation": "1:1",
+    "metadata": {
+      "method": "GET",
+      "path": "/stats",
+      "pathParams": [],
+      "sourceType": "openapi_spec"
+    }
+  },
+  {
+    "id": "836027beb4f26f8d",
+    "type": "handler",
+    "sourceFile": "App.tsx",
+    "sourceLocation": "29:14",
+    "metadata": {
+      "handlerName": "handleDelete",
+      "functionSignature": "()",
+      "triggerType": "onClick"
+    }
+  },
+  {
+    "id": "78b3eee14faf8123",
+    "type": "handler",
+    "sourceFile": "App.tsx",
+    "sourceLocation": "34:7",
+    "metadata": {
+      "handlerName": "fetchTasks",
+      "functionSignature": "()",
+      "triggerType": "service"
+    }
+  },
+  {
+    "id": "12526a24e44aa0c4",
+    "type": "handler",
+    "sourceFile": "TaskForm.tsx",
+    "sourceLocation": "22:13",
+    "metadata": {
+      "handlerName": "createTask",
+      "functionSignature": "(data: any)",
+      "triggerType": "service"
+    }
+  },
+  {
+    "id": "9cc6a4fbf17b9995",
+    "type": "handler",
+    "sourceFile": "TaskForm.tsx",
+    "sourceLocation": "7:10",
+    "metadata": {
+      "handlerName": "handleSubmit",
+      "functionSignature": "()",
+      "triggerType": "onSubmit"
+    }
+  },
+  {
+    "id": "0559aa2b70233d78",
+    "type": "route",
+    "sourceFile": "App.tsx",
+    "sourceLocation": "6:2",
+    "metadata": {
+      "path": "/",
+      "dynamicParams": [],
+      "isNested": false,
+      "framework": "react-router",
+      "routerKind": "data-api"
+    }
+  },
+  {
+    "id": "945f6d5f74df4a03",
+    "type": "route",
+    "sourceFile": "App.tsx",
+    "sourceLocation": "7:2",
+    "metadata": {
+      "path": "/tasks",
+      "dynamicParams": [],
+      "isNested": false,
+      "framework": "react-router",
+      "routerKind": "data-api"
+    }
+  },
+  {
+    "id": "e62142ca9b17090d",
+    "type": "route",
+    "sourceFile": "App.tsx",
+    "sourceLocation": "8:2",
+    "metadata": {
+      "path": "/tasks/:id",
+      "dynamicParams": [
+        "id"
+      ],
+      "isNested": false,
+      "framework": "react-router",
+      "routerKind": "data-api"
+    }
+  },
+  {
+    "id": "36e5896045e8aa2b",
+    "type": "ui_action",
+    "sourceFile": "App.tsx",
+    "sourceLocation": "18:6",
+    "metadata": {
+      "elementType": "link",
+      "label": "Home",
+      "labelSource": "static",
+      "associatedComponent": "Home",
+      "href": "/"
+    }
+  },
+  {
+    "id": "9cce7a45aab35f97",
+    "type": "ui_action",
+    "sourceFile": "App.tsx",
+    "sourceLocation": "19:6",
+    "metadata": {
+      "elementType": "link",
+      "label": "Tasks",
+      "labelSource": "static",
+      "associatedComponent": "Home",
+      "href": "/tasks"
+    }
+  },
+  {
+    "id": "094d3614c0f042c2",
+    "type": "ui_action",
+    "sourceFile": "App.tsx",
+    "sourceLocation": "29:6",
+    "metadata": {
+      "elementType": "button",
+      "label": "Delete Task",
+      "labelSource": "static",
+      "associatedComponent": "TaskList"
+    }
+  },
+  {
+    "id": "9c2ee28b4df89980",
+    "type": "ui_action",
+    "sourceFile": "App.tsx",
+    "sourceLocation": "8:33",
+    "metadata": {
+      "elementType": "form",
+      "label": "TaskForm",
+      "labelSource": "static"
+    }
+  },
+  {
+    "id": "827f447e84fd9407",
+    "type": "ui_action",
+    "sourceFile": "TaskForm.tsx",
+    "sourceLocation": "11:8",
+    "metadata": {
+      "elementType": "input",
+      "label": "Task Title",
+      "labelSource": "static",
+      "associatedComponent": "TaskForm",
+      "inputType": "text"
+    }
+  },
+  {
+    "id": "3a3e253e0c5b13c9",
+    "type": "ui_action",
+    "sourceFile": "TaskForm.tsx",
+    "sourceLocation": "15:8",
+    "metadata": {
+      "elementType": "input",
+      "label": "Task Description",
+      "labelSource": "static",
+      "associatedComponent": "TaskForm"
+    }
+  },
+  {
+    "id": "e1b04f2699726a0a",
+    "type": "ui_action",
+    "sourceFile": "TaskForm.tsx",
+    "sourceLocation": "17:6",
+    "metadata": {
+      "elementType": "button",
+      "label": "Save Task",
+      "labelSource": "static",
+      "associatedComponent": "TaskForm"
+    }
+  },
+  {
+    "id": "bf569357dd3081cd",
+    "type": "ui_action",
+    "sourceFile": "TaskForm.tsx",
+    "sourceLocation": "7:4",
+    "metadata": {
+      "elementType": "form",
+      "label": "TaskForm",
+      "labelSource": "static",
+      "associatedComponent": "TaskForm"
+    }
+  }
+]
