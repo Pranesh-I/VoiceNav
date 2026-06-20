@@ -1,0 +1,2927 @@
+[
+  {
+    "id": "930b3c0844f9af70",
+    "type": "handler",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "110:16",
+    "metadata": {
+      "handlerName": "logout",
+      "functionSignature": "()",
+      "triggerType": "onClick"
+    }
+  },
+  {
+    "id": "11487a69fbac071f",
+    "type": "handler",
+    "sourceFile": "src/pages/Auth/ClientSignup.jsx",
+    "sourceLocation": "71:38",
+    "metadata": {
+      "handlerName": "handleSubmit",
+      "functionSignature": "()",
+      "triggerType": "onSubmit"
+    }
+  },
+  {
+    "id": "5218dd13110981a5",
+    "type": "handler",
+    "sourceFile": "src/pages/Auth/FreelancerSignup.jsx",
+    "sourceLocation": "74:38",
+    "metadata": {
+      "handlerName": "handleSubmit",
+      "functionSignature": "()",
+      "triggerType": "onSubmit"
+    }
+  },
+  {
+    "id": "51602513e3037c31",
+    "type": "handler",
+    "sourceFile": "src/pages/Auth/Login.jsx",
+    "sourceLocation": "101:14",
+    "metadata": {
+      "handlerName": "<anonymous>",
+      "functionSignature": "()",
+      "triggerType": "onClick",
+      "inlineHandler": true
+    }
+  },
+  {
+    "id": "112ca407dec5c76c",
+    "type": "handler",
+    "sourceFile": "src/pages/Auth/Login.jsx",
+    "sourceLocation": "107:14",
+    "metadata": {
+      "handlerName": "<anonymous>",
+      "functionSignature": "()",
+      "triggerType": "onClick",
+      "inlineHandler": true
+    }
+  },
+  {
+    "id": "c642b22f28df340e",
+    "type": "handler",
+    "sourceFile": "src/pages/Auth/Login.jsx",
+    "sourceLocation": "57:38",
+    "metadata": {
+      "handlerName": "handleSubmit",
+      "functionSignature": "()",
+      "triggerType": "onSubmit"
+    }
+  },
+  {
+    "id": "04c4fa44b7620240",
+    "type": "handler",
+    "sourceFile": "src/pages/Auth/RoleSelection.jsx",
+    "sourceLocation": "28:12",
+    "metadata": {
+      "handlerName": "<anonymous>",
+      "functionSignature": "()",
+      "triggerType": "onClick",
+      "inlineHandler": true
+    }
+  },
+  {
+    "id": "9bfef1128f20b43f",
+    "type": "handler",
+    "sourceFile": "src/pages/Auth/RoleSelection.jsx",
+    "sourceLocation": "46:12",
+    "metadata": {
+      "handlerName": "<anonymous>",
+      "functionSignature": "()",
+      "triggerType": "onClick",
+      "inlineHandler": true
+    }
+  },
+  {
+    "id": "8932c313580dbbba",
+    "type": "handler",
+    "sourceFile": "src/pages/client/ClientNotificationCenter.jsx",
+    "sourceLocation": "117:16",
+    "metadata": {
+      "handlerName": "<anonymous>",
+      "functionSignature": "()",
+      "triggerType": "onClick",
+      "inlineHandler": true
+    }
+  },
+  {
+    "id": "581de921f1795186",
+    "type": "handler",
+    "sourceFile": "src/pages/client/ClientNotificationCenter.jsx",
+    "sourceLocation": "88:13",
+    "metadata": {
+      "handlerName": "<anonymous>",
+      "functionSignature": "()",
+      "triggerType": "onClick",
+      "inlineHandler": true
+    }
+  },
+  {
+    "id": "94276252741a890b",
+    "type": "handler",
+    "sourceFile": "src/pages/client/ClientNotificationCenter.jsx",
+    "sourceLocation": "94:13",
+    "metadata": {
+      "handlerName": "<anonymous>",
+      "functionSignature": "()",
+      "triggerType": "onClick",
+      "inlineHandler": true
+    }
+  },
+  {
+    "id": "8896018c7e930c3f",
+    "type": "handler",
+    "sourceFile": "src/pages/client/ClientSettings.jsx",
+    "sourceLocation": "297:24",
+    "metadata": {
+      "handlerName": "handleSubmit",
+      "functionSignature": "()",
+      "triggerType": "onClick"
+    }
+  },
+  {
+    "id": "0895c885a09a3d30",
+    "type": "handler",
+    "sourceFile": "src/pages/client/ClientSettings.jsx",
+    "sourceLocation": "94:16",
+    "metadata": {
+      "handlerName": "handleSubmit",
+      "functionSignature": "()",
+      "triggerType": "onSubmit"
+    }
+  },
+  {
+    "id": "54d673e731a9148f",
+    "type": "handler",
+    "sourceFile": "src/pages/client/ClientViewFreelancerProfile.jsx",
+    "sourceLocation": "115:16",
+    "metadata": {
+      "handlerName": "<anonymous>",
+      "functionSignature": "()",
+      "triggerType": "onClick",
+      "inlineHandler": true
+    }
+  },
+  {
+    "id": "64aaa0851b4ec4cc",
+    "type": "handler",
+    "sourceFile": "src/pages/client/ClientViewFreelancerProfile.jsx",
+    "sourceLocation": "123:8",
+    "metadata": {
+      "handlerName": "<anonymous>",
+      "functionSignature": "()",
+      "triggerType": "onClick",
+      "inlineHandler": true
+    }
+  },
+  {
+    "id": "6ce2fa643ea42285",
+    "type": "handler",
+    "sourceFile": "src/pages/client/ClientViewFreelancerProfile.jsx",
+    "sourceLocation": "181:22",
+    "metadata": {
+      "handlerName": "handleHire",
+      "functionSignature": "()",
+      "triggerType": "onClick"
+    }
+  },
+  {
+    "id": "e6a5dad155a574a8",
+    "type": "handler",
+    "sourceFile": "src/pages/client/ClientViewFreelancerProfile.jsx",
+    "sourceLocation": "194:26",
+    "metadata": {
+      "handlerName": "<anonymous>",
+      "functionSignature": "()",
+      "triggerType": "onClick",
+      "inlineHandler": true
+    }
+  },
+  {
+    "id": "669d3ed3c7fd7475",
+    "type": "handler",
+    "sourceFile": "src/pages/client/MyJobs.jsx",
+    "sourceLocation": "206:31",
+    "metadata": {
+      "handlerName": "<anonymous>",
+      "functionSignature": "()",
+      "triggerType": "onClick",
+      "inlineHandler": true
+    }
+  },
+  {
+    "id": "53036d08b115cff3",
+    "type": "handler",
+    "sourceFile": "src/pages/client/MyJobs.jsx",
+    "sourceLocation": "238:28",
+    "metadata": {
+      "handlerName": "<anonymous>",
+      "functionSignature": "()",
+      "triggerType": "onClick",
+      "inlineHandler": true
+    }
+  },
+  {
+    "id": "e5a23d4eed8ba9e2",
+    "type": "handler",
+    "sourceFile": "src/pages/client/Overview.jsx",
+    "sourceLocation": "103:18",
+    "metadata": {
+      "handlerName": "<anonymous>",
+      "functionSignature": "()",
+      "triggerType": "onClick",
+      "inlineHandler": true
+    }
+  },
+  {
+    "id": "724897ec9a58a55d",
+    "type": "handler",
+    "sourceFile": "src/pages/client/PostJob.jsx",
+    "sourceLocation": "157:14",
+    "metadata": {
+      "handlerName": "handleSubmit",
+      "functionSignature": "()",
+      "triggerType": "onSubmit"
+    }
+  },
+  {
+    "id": "cd60db594bafe05b",
+    "type": "handler",
+    "sourceFile": "src/pages/client/PostJob.jsx",
+    "sourceLocation": "246:22",
+    "metadata": {
+      "handlerName": "<anonymous>",
+      "functionSignature": "()",
+      "triggerType": "onClick",
+      "inlineHandler": true
+    }
+  },
+  {
+    "id": "6f7e2a3cd54c6cd6",
+    "type": "handler",
+    "sourceFile": "src/pages/client/PostJob.jsx",
+    "sourceLocation": "290:14",
+    "metadata": {
+      "handlerName": "handleReset",
+      "functionSignature": "()",
+      "triggerType": "onClick"
+    }
+  },
+  {
+    "id": "3f2778e645140a58",
+    "type": "handler",
+    "sourceFile": "src/pages/Dashboards/ClientDashboard.jsx",
+    "sourceLocation": "117:12",
+    "metadata": {
+      "handlerName": "handleLogout",
+      "functionSignature": "()",
+      "triggerType": "onClick"
+    }
+  },
+  {
+    "id": "daf637d80c081c01",
+    "type": "handler",
+    "sourceFile": "src/pages/Dashboards/Freelancer/ActiveProjects.jsx",
+    "sourceLocation": "118:20",
+    "metadata": {
+      "handlerName": "<anonymous>",
+      "functionSignature": "()",
+      "triggerType": "onClick",
+      "inlineHandler": true
+    }
+  },
+  {
+    "id": "67d3d8aa712ae545",
+    "type": "handler",
+    "sourceFile": "src/pages/Dashboards/Freelancer/ActiveProjects.jsx",
+    "sourceLocation": "172:24",
+    "metadata": {
+      "handlerName": "<anonymous>",
+      "functionSignature": "()",
+      "triggerType": "onClick",
+      "inlineHandler": true
+    }
+  },
+  {
+    "id": "a83a69f03b858c69",
+    "type": "handler",
+    "sourceFile": "src/pages/Dashboards/Freelancer/CompletedProjects.jsx",
+    "sourceLocation": "94:18",
+    "metadata": {
+      "handlerName": "<anonymous>",
+      "functionSignature": "()",
+      "triggerType": "onClick",
+      "inlineHandler": true
+    }
+  },
+  {
+    "id": "e3b07855a8fa3ef8",
+    "type": "handler",
+    "sourceFile": "src/pages/Dashboards/Freelancer/FindWork.jsx",
+    "sourceLocation": "186:19",
+    "metadata": {
+      "handlerName": "<anonymous>",
+      "functionSignature": "()",
+      "triggerType": "onClick",
+      "inlineHandler": true
+    }
+  },
+  {
+    "id": "de422b09088218e7",
+    "type": "handler",
+    "sourceFile": "src/pages/Dashboards/Freelancer/FindWork.jsx",
+    "sourceLocation": "203:77",
+    "metadata": {
+      "handlerName": "<anonymous>",
+      "functionSignature": "()",
+      "triggerType": "onClick",
+      "inlineHandler": true
+    }
+  },
+  {
+    "id": "d1828c41e02ec83c",
+    "type": "handler",
+    "sourceFile": "src/pages/Dashboards/Freelancer/FindWork.jsx",
+    "sourceLocation": "211:24",
+    "metadata": {
+      "handlerName": "<anonymous>",
+      "functionSignature": "()",
+      "triggerType": "onClick",
+      "inlineHandler": true
+    }
+  },
+  {
+    "id": "8ec657926f7e465c",
+    "type": "handler",
+    "sourceFile": "src/pages/Dashboards/Freelancer/FindWork.jsx",
+    "sourceLocation": "225:44",
+    "metadata": {
+      "handlerName": "handleApply",
+      "functionSignature": "()",
+      "triggerType": "onSubmit"
+    }
+  },
+  {
+    "id": "5c9b85a2f4f59d99",
+    "type": "handler",
+    "sourceFile": "src/pages/Dashboards/Freelancer/Messages.jsx",
+    "sourceLocation": "112:20",
+    "metadata": {
+      "handlerName": "handleSend",
+      "functionSignature": "()",
+      "triggerType": "onSubmit"
+    }
+  },
+  {
+    "id": "8e46f8ac89c61c61",
+    "type": "handler",
+    "sourceFile": "src/pages/Dashboards/Freelancer/Messages.jsx",
+    "sourceLocation": "43:14",
+    "metadata": {
+      "handlerName": "<anonymous>",
+      "functionSignature": "()",
+      "triggerType": "onClick",
+      "inlineHandler": true
+    }
+  },
+  {
+    "id": "345d7ff3317029bd",
+    "type": "handler",
+    "sourceFile": "src/pages/Dashboards/Freelancer/Overview.jsx",
+    "sourceLocation": "179:25",
+    "metadata": {
+      "handlerName": "<anonymous>",
+      "functionSignature": "()",
+      "triggerType": "onClick",
+      "inlineHandler": true
+    }
+  },
+  {
+    "id": "e3d6b317bfe685ba",
+    "type": "handler",
+    "sourceFile": "src/pages/Dashboards/Freelancer/Overview.jsx",
+    "sourceLocation": "238:27",
+    "metadata": {
+      "handlerName": "<anonymous>",
+      "functionSignature": "()",
+      "triggerType": "onClick",
+      "inlineHandler": true
+    }
+  },
+  {
+    "id": "14352be053b68c58",
+    "type": "handler",
+    "sourceFile": "src/pages/Dashboards/Freelancer/ProfileSettings.jsx",
+    "sourceLocation": "83:16",
+    "metadata": {
+      "handlerName": "handleSubmit",
+      "functionSignature": "()",
+      "triggerType": "onSubmit"
+    }
+  },
+  {
+    "id": "209f387466bd249e",
+    "type": "handler",
+    "sourceFile": "src/pages/Dashboards/FreelancerDashboard.jsx",
+    "sourceLocation": "83:12",
+    "metadata": {
+      "handlerName": "handleLogout",
+      "functionSignature": "()",
+      "triggerType": "onClick"
+    }
+  },
+  {
+    "id": "45d117845eff49f6",
+    "type": "handler",
+    "sourceFile": "src/pages/messages/Messages.jsx",
+    "sourceLocation": "189:21",
+    "metadata": {
+      "handlerName": "<anonymous>",
+      "functionSignature": "()",
+      "triggerType": "onClick",
+      "inlineHandler": true
+    }
+  },
+  {
+    "id": "addfe5bba767daf5",
+    "type": "handler",
+    "sourceFile": "src/pages/messages/Messages.jsx",
+    "sourceLocation": "223:29",
+    "metadata": {
+      "handlerName": "<anonymous>",
+      "functionSignature": "()",
+      "triggerType": "onClick",
+      "inlineHandler": true
+    }
+  },
+  {
+    "id": "2a02dcdd84485adf",
+    "type": "handler",
+    "sourceFile": "src/pages/messages/Messages.jsx",
+    "sourceLocation": "288:24",
+    "metadata": {
+      "handlerName": "handleSendMessage",
+      "functionSignature": "()",
+      "triggerType": "onSubmit"
+    }
+  },
+  {
+    "id": "d25b4c50618be293",
+    "type": "route",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "318:14",
+    "metadata": {
+      "path": "/",
+      "dynamicParams": [],
+      "isNested": false,
+      "framework": "react-router",
+      "routerKind": "jsx"
+    }
+  },
+  {
+    "id": "a0a566c793e36360",
+    "type": "route",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "321:14",
+    "metadata": {
+      "path": "/login",
+      "dynamicParams": [],
+      "isNested": false,
+      "framework": "react-router",
+      "routerKind": "jsx"
+    }
+  },
+  {
+    "id": "190317346fac42df",
+    "type": "route",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "322:14",
+    "metadata": {
+      "path": "/signup",
+      "dynamicParams": [],
+      "isNested": false,
+      "framework": "react-router",
+      "routerKind": "jsx"
+    }
+  },
+  {
+    "id": "9a272776fbe74c28",
+    "type": "route",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "323:14",
+    "metadata": {
+      "path": "/signup/freelancer",
+      "dynamicParams": [],
+      "isNested": false,
+      "framework": "react-router",
+      "routerKind": "jsx"
+    }
+  },
+  {
+    "id": "020ee79dc031078c",
+    "type": "route",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "324:14",
+    "metadata": {
+      "path": "/signup/client",
+      "dynamicParams": [],
+      "isNested": false,
+      "framework": "react-router",
+      "routerKind": "jsx"
+    }
+  },
+  {
+    "id": "80266e9ad955d956",
+    "type": "route",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "327:14",
+    "metadata": {
+      "path": "/client",
+      "dynamicParams": [],
+      "isNested": false,
+      "framework": "react-router",
+      "routerKind": "jsx"
+    }
+  },
+  {
+    "id": "c4d2989cc17d1f87",
+    "type": "route",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "336:16",
+    "metadata": {
+      "path": "post-job",
+      "dynamicParams": [],
+      "isNested": true,
+      "framework": "react-router",
+      "routerKind": "jsx"
+    }
+  },
+  {
+    "id": "7d51adc2359f2bd8",
+    "type": "route",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "337:16",
+    "metadata": {
+      "path": "my-jobs",
+      "dynamicParams": [],
+      "isNested": true,
+      "framework": "react-router",
+      "routerKind": "jsx"
+    }
+  },
+  {
+    "id": "945df805029ed209",
+    "type": "route",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "338:16",
+    "metadata": {
+      "path": "notifications",
+      "dynamicParams": [],
+      "isNested": true,
+      "framework": "react-router",
+      "routerKind": "jsx"
+    }
+  },
+  {
+    "id": "f990eadbc97ad967",
+    "type": "route",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "339:16",
+    "metadata": {
+      "path": "profile/freelancer/:freelancerId",
+      "dynamicParams": [
+        "freelancerId"
+      ],
+      "isNested": true,
+      "framework": "react-router",
+      "routerKind": "jsx"
+    }
+  },
+  {
+    "id": "0b1e846c753402da",
+    "type": "route",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "340:16",
+    "metadata": {
+      "path": "freelancers",
+      "dynamicParams": [],
+      "isNested": true,
+      "framework": "react-router",
+      "routerKind": "jsx"
+    }
+  },
+  {
+    "id": "a593b700950697e9",
+    "type": "route",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "341:16",
+    "metadata": {
+      "path": "messages",
+      "dynamicParams": [],
+      "isNested": true,
+      "framework": "react-router",
+      "routerKind": "jsx"
+    }
+  },
+  {
+    "id": "ee7ab54d2be3d72a",
+    "type": "route",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "342:16",
+    "metadata": {
+      "path": "settings",
+      "dynamicParams": [],
+      "isNested": true,
+      "framework": "react-router",
+      "routerKind": "jsx"
+    }
+  },
+  {
+    "id": "99b32e661b60eafc",
+    "type": "route",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "346:14",
+    "metadata": {
+      "path": "/client-dashboard",
+      "dynamicParams": [],
+      "isNested": false,
+      "framework": "react-router",
+      "routerKind": "jsx"
+    }
+  },
+  {
+    "id": "0e22384e8331d0d8",
+    "type": "route",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "349:14",
+    "metadata": {
+      "path": "/freelancer-dashboard",
+      "dynamicParams": [],
+      "isNested": false,
+      "framework": "react-router",
+      "routerKind": "jsx"
+    }
+  },
+  {
+    "id": "adf41df827179d11",
+    "type": "route",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "358:16",
+    "metadata": {
+      "path": "find-work",
+      "dynamicParams": [],
+      "isNested": true,
+      "framework": "react-router",
+      "routerKind": "jsx"
+    }
+  },
+  {
+    "id": "d8cc4f44884b10a5",
+    "type": "route",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "359:16",
+    "metadata": {
+      "path": "applications",
+      "dynamicParams": [],
+      "isNested": true,
+      "framework": "react-router",
+      "routerKind": "jsx"
+    }
+  },
+  {
+    "id": "07c0f51855b482cd",
+    "type": "route",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "360:16",
+    "metadata": {
+      "path": "active-projects",
+      "dynamicParams": [],
+      "isNested": true,
+      "framework": "react-router",
+      "routerKind": "jsx"
+    }
+  },
+  {
+    "id": "fe0ce065d08a9c25",
+    "type": "route",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "361:16",
+    "metadata": {
+      "path": "completed",
+      "dynamicParams": [],
+      "isNested": true,
+      "framework": "react-router",
+      "routerKind": "jsx"
+    }
+  },
+  {
+    "id": "abbb49996deab487",
+    "type": "route",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "362:16",
+    "metadata": {
+      "path": "messages",
+      "dynamicParams": [],
+      "isNested": true,
+      "framework": "react-router",
+      "routerKind": "jsx"
+    }
+  },
+  {
+    "id": "9053e6a84455df5a",
+    "type": "route",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "363:16",
+    "metadata": {
+      "path": "settings",
+      "dynamicParams": [],
+      "isNested": true,
+      "framework": "react-router",
+      "routerKind": "jsx"
+    }
+  },
+  {
+    "id": "e49345773b0b6bf6",
+    "type": "route",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "367:14",
+    "metadata": {
+      "path": "*",
+      "dynamicParams": [],
+      "isNested": false,
+      "framework": "react-router",
+      "routerKind": "jsx"
+    }
+  },
+  {
+    "id": "b2c8bedbe71c8f1b",
+    "type": "ui_action",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "100:14",
+    "metadata": {
+      "elementType": "link",
+      "label": "Portal",
+      "labelSource": "static",
+      "associatedComponent": "Navbar",
+      "href": "user.role === 'client' ? '/client' : '/freelancer-dashboard'"
+    }
+  },
+  {
+    "id": "d240cb75bd3956d8",
+    "type": "ui_action",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "109:14",
+    "metadata": {
+      "elementType": "button",
+      "label": "Logout",
+      "labelSource": "static",
+      "associatedComponent": "Navbar"
+    }
+  },
+  {
+    "id": "04bab48a997155de",
+    "type": "ui_action",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "118:14",
+    "metadata": {
+      "elementType": "link",
+      "label": "Login",
+      "labelSource": "static",
+      "associatedComponent": "Navbar",
+      "href": "/login"
+    }
+  },
+  {
+    "id": "88bcce95e812ca20",
+    "type": "ui_action",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "119:14",
+    "metadata": {
+      "elementType": "link",
+      "label": "Sign Up",
+      "labelSource": "static",
+      "associatedComponent": "Navbar",
+      "href": "/signup"
+    }
+  },
+  {
+    "id": "6b03fc3ff951a924",
+    "type": "ui_action",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "133:10",
+    "metadata": {
+      "elementType": "link",
+      "label": "/",
+      "labelSource": "static",
+      "associatedComponent": "Footer",
+      "href": "/"
+    }
+  },
+  {
+    "id": "d8d4b7635a9ec117",
+    "type": "ui_action",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "143:12",
+    "metadata": {
+      "elementType": "link",
+      "label": "#",
+      "labelSource": "static",
+      "associatedComponent": "Footer",
+      "href": "#"
+    }
+  },
+  {
+    "id": "d9f0f0aa84bf67f6",
+    "type": "ui_action",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "144:12",
+    "metadata": {
+      "elementType": "link",
+      "label": "#",
+      "labelSource": "static",
+      "associatedComponent": "Footer",
+      "href": "#"
+    }
+  },
+  {
+    "id": "bb1073db19f54684",
+    "type": "ui_action",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "145:12",
+    "metadata": {
+      "elementType": "link",
+      "label": "#",
+      "labelSource": "static",
+      "associatedComponent": "Footer",
+      "href": "#"
+    }
+  },
+  {
+    "id": "03ee27a5f8983bb5",
+    "type": "ui_action",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "152:16",
+    "metadata": {
+      "elementType": "link",
+      "label": "Browse Projects",
+      "labelSource": "static",
+      "associatedComponent": "Footer",
+      "href": "/browse"
+    }
+  },
+  {
+    "id": "42b6f7cd5ee6ef16",
+    "type": "ui_action",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "153:16",
+    "metadata": {
+      "elementType": "link",
+      "label": "Hire Talent",
+      "labelSource": "static",
+      "associatedComponent": "Footer",
+      "href": "/hire"
+    }
+  },
+  {
+    "id": "bc8a1878e890128c",
+    "type": "ui_action",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "154:16",
+    "metadata": {
+      "elementType": "link",
+      "label": "How It Works",
+      "labelSource": "static",
+      "associatedComponent": "Footer",
+      "href": "/#how-it-works"
+    }
+  },
+  {
+    "id": "6e8e718af1225043",
+    "type": "ui_action",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "155:16",
+    "metadata": {
+      "elementType": "link",
+      "label": "Pricing",
+      "labelSource": "static",
+      "associatedComponent": "Footer",
+      "href": "/pricing"
+    }
+  },
+  {
+    "id": "9f5f13cfda4a5d50",
+    "type": "ui_action",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "162:16",
+    "metadata": {
+      "elementType": "link",
+      "label": "Help Center",
+      "labelSource": "static",
+      "associatedComponent": "Footer",
+      "href": "#"
+    }
+  },
+  {
+    "id": "351667b83738cb85",
+    "type": "ui_action",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "163:16",
+    "metadata": {
+      "elementType": "link",
+      "label": "Contact Us",
+      "labelSource": "static",
+      "associatedComponent": "Footer",
+      "href": "#"
+    }
+  },
+  {
+    "id": "baf6cd913541dce9",
+    "type": "ui_action",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "164:16",
+    "metadata": {
+      "elementType": "link",
+      "label": "Security",
+      "labelSource": "static",
+      "associatedComponent": "Footer",
+      "href": "#"
+    }
+  },
+  {
+    "id": "b5a8546644cd682e",
+    "type": "ui_action",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "165:16",
+    "metadata": {
+      "elementType": "link",
+      "label": "Terms of Service",
+      "labelSource": "static",
+      "associatedComponent": "Footer",
+      "href": "#"
+    }
+  },
+  {
+    "id": "5155f6f491c58122",
+    "type": "ui_action",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "185:10",
+    "metadata": {
+      "elementType": "link",
+      "label": "Privacy Policy",
+      "labelSource": "static",
+      "associatedComponent": "Footer",
+      "href": "#"
+    }
+  },
+  {
+    "id": "d99e4f0e8fadc81e",
+    "type": "ui_action",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "186:10",
+    "metadata": {
+      "elementType": "link",
+      "label": "Cookie Policy",
+      "labelSource": "static",
+      "associatedComponent": "Footer",
+      "href": "#"
+    }
+  },
+  {
+    "id": "60e285c232d22de1",
+    "type": "ui_action",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "218:14",
+    "metadata": {
+      "elementType": "link",
+      "label": "Find Work",
+      "labelSource": "static",
+      "associatedComponent": "Home",
+      "href": "/signup/freelancer"
+    }
+  },
+  {
+    "id": "0db2511b60355e56",
+    "type": "ui_action",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "221:14",
+    "metadata": {
+      "elementType": "link",
+      "label": "Find Talent",
+      "labelSource": "static",
+      "associatedComponent": "Home",
+      "href": "/signup/client"
+    }
+  },
+  {
+    "id": "440148eb6ae79809",
+    "type": "ui_action",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "81:10",
+    "metadata": {
+      "elementType": "link",
+      "label": "/",
+      "labelSource": "static",
+      "associatedComponent": "Navbar",
+      "href": "/"
+    }
+  },
+  {
+    "id": "5c8bc4b497b70e64",
+    "type": "ui_action",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "90:12",
+    "metadata": {
+      "elementType": "link",
+      "label": "Home",
+      "labelSource": "static",
+      "associatedComponent": "Navbar",
+      "href": "/"
+    }
+  },
+  {
+    "id": "f5b2842525bba5af",
+    "type": "ui_action",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "91:12",
+    "metadata": {
+      "elementType": "link",
+      "label": "Find Work",
+      "labelSource": "static",
+      "associatedComponent": "Navbar",
+      "href": "/signup/freelancer"
+    }
+  },
+  {
+    "id": "e67b5b7951567238",
+    "type": "ui_action",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "92:12",
+    "metadata": {
+      "elementType": "link",
+      "label": "Find Talent",
+      "labelSource": "static",
+      "associatedComponent": "Navbar",
+      "href": "/signup/client"
+    }
+  },
+  {
+    "id": "3f34796b7d4eedb7",
+    "type": "ui_action",
+    "sourceFile": "src/App.jsx",
+    "sourceLocation": "93:12",
+    "metadata": {
+      "elementType": "link",
+      "label": "How It Works",
+      "labelSource": "static",
+      "associatedComponent": "Navbar",
+      "href": "#how-it-works"
+    }
+  },
+  {
+    "id": "a0c0a84490bd654c",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/ClientSignup.jsx",
+    "sourceLocation": "109:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "companyName",
+      "labelSource": "static",
+      "associatedComponent": "ClientSignup",
+      "inputType": "text",
+      "placeholder": "Acme Inc."
+    }
+  },
+  {
+    "id": "8eb79f257c21f2a3",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/ClientSignup.jsx",
+    "sourceLocation": "113:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "industry",
+      "labelSource": "static",
+      "associatedComponent": "ClientSignup",
+      "inputType": "text",
+      "placeholder": "Technology"
+    }
+  },
+  {
+    "id": "48efba15d9d15131",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/ClientSignup.jsx",
+    "sourceLocation": "119:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "city",
+      "labelSource": "static",
+      "associatedComponent": "ClientSignup",
+      "inputType": "text",
+      "placeholder": "New York"
+    }
+  },
+  {
+    "id": "24fd4392075528db",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/ClientSignup.jsx",
+    "sourceLocation": "123:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "state",
+      "labelSource": "static",
+      "associatedComponent": "ClientSignup",
+      "inputType": "text",
+      "placeholder": "NY"
+    }
+  },
+  {
+    "id": "abf1874447018272",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/ClientSignup.jsx",
+    "sourceLocation": "127:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "country",
+      "labelSource": "static",
+      "associatedComponent": "ClientSignup",
+      "inputType": "text",
+      "placeholder": "USA"
+    }
+  },
+  {
+    "id": "84f81ce8deffdbd4",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/ClientSignup.jsx",
+    "sourceLocation": "134:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "website",
+      "labelSource": "static",
+      "associatedComponent": "ClientSignup",
+      "inputType": "url",
+      "placeholder": "https://company.com"
+    }
+  },
+  {
+    "id": "3965e041afd08816",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/ClientSignup.jsx",
+    "sourceLocation": "139:12",
+    "metadata": {
+      "elementType": "button",
+      "label": "Initialize Enterprise Hub",
+      "labelSource": "static",
+      "associatedComponent": "ClientSignup"
+    }
+  },
+  {
+    "id": "3623dc217f7b9b07",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/ClientSignup.jsx",
+    "sourceLocation": "145:22",
+    "metadata": {
+      "elementType": "link",
+      "label": "Role Selection",
+      "labelSource": "static",
+      "associatedComponent": "ClientSignup",
+      "href": "/signup"
+    }
+  },
+  {
+    "id": "9a2ecc4f59cf6b26",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/ClientSignup.jsx",
+    "sourceLocation": "54:10",
+    "metadata": {
+      "elementType": "link",
+      "label": "/",
+      "labelSource": "static",
+      "associatedComponent": "ClientSignup",
+      "href": "/"
+    }
+  },
+  {
+    "id": "3e5e958f7b6fdb78",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/ClientSignup.jsx",
+    "sourceLocation": "71:10",
+    "metadata": {
+      "elementType": "form",
+      "label": "form",
+      "labelSource": "static",
+      "associatedComponent": "ClientSignup"
+    }
+  },
+  {
+    "id": "e28221aee4ee256f",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/ClientSignup.jsx",
+    "sourceLocation": "81:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "name",
+      "labelSource": "static",
+      "associatedComponent": "ClientSignup",
+      "inputType": "text",
+      "placeholder": "Alex Rivers"
+    }
+  },
+  {
+    "id": "4ce5879e27dadfcc",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/ClientSignup.jsx",
+    "sourceLocation": "85:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "email",
+      "labelSource": "static",
+      "associatedComponent": "ClientSignup",
+      "inputType": "email",
+      "placeholder": "alex@company.com"
+    }
+  },
+  {
+    "id": "04693c3c6e2149d3",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/ClientSignup.jsx",
+    "sourceLocation": "91:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "password",
+      "labelSource": "static",
+      "associatedComponent": "ClientSignup",
+      "inputType": "password",
+      "placeholder": "••••••••"
+    }
+  },
+  {
+    "id": "910e196affea34c5",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/ClientSignup.jsx",
+    "sourceLocation": "95:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "phone",
+      "labelSource": "static",
+      "associatedComponent": "ClientSignup",
+      "inputType": "tel",
+      "placeholder": "+1 (555) 000-1111"
+    }
+  },
+  {
+    "id": "8e371f44d59fbfda",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/FreelancerSignup.jsx",
+    "sourceLocation": "104:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "city",
+      "labelSource": "static",
+      "associatedComponent": "FreelancerSignup",
+      "inputType": "text",
+      "placeholder": "New York"
+    }
+  },
+  {
+    "id": "65c3b62bad0a4c02",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/FreelancerSignup.jsx",
+    "sourceLocation": "108:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "state",
+      "labelSource": "static",
+      "associatedComponent": "FreelancerSignup",
+      "inputType": "text",
+      "placeholder": "NY"
+    }
+  },
+  {
+    "id": "579a3cfae2f84319",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/FreelancerSignup.jsx",
+    "sourceLocation": "112:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "country",
+      "labelSource": "static",
+      "associatedComponent": "FreelancerSignup",
+      "inputType": "text",
+      "placeholder": "USA"
+    }
+  },
+  {
+    "id": "148ffe0ccd7993ba",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/FreelancerSignup.jsx",
+    "sourceLocation": "125:16",
+    "metadata": {
+      "elementType": "input",
+      "label": "skills",
+      "labelSource": "static",
+      "associatedComponent": "FreelancerSignup",
+      "inputType": "text",
+      "placeholder": "React, Python, Figma, AWS..."
+    }
+  },
+  {
+    "id": "4a1322c78baa38c2",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/FreelancerSignup.jsx",
+    "sourceLocation": "130:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "experienceLevel",
+      "labelSource": "static",
+      "associatedComponent": "FreelancerSignup"
+    }
+  },
+  {
+    "id": "ee80130b2a6c03b7",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/FreelancerSignup.jsx",
+    "sourceLocation": "140:20",
+    "metadata": {
+      "elementType": "input",
+      "label": "portfolio",
+      "labelSource": "static",
+      "associatedComponent": "FreelancerSignup",
+      "inputType": "url",
+      "placeholder": "https://portfolio.me"
+    }
+  },
+  {
+    "id": "baeed6fb619256f7",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/FreelancerSignup.jsx",
+    "sourceLocation": "146:12",
+    "metadata": {
+      "elementType": "button",
+      "label": "Create Hub Profile",
+      "labelSource": "static",
+      "associatedComponent": "FreelancerSignup"
+    }
+  },
+  {
+    "id": "79048353679c3e90",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/FreelancerSignup.jsx",
+    "sourceLocation": "152:22",
+    "metadata": {
+      "elementType": "link",
+      "label": "Role Selection",
+      "labelSource": "static",
+      "associatedComponent": "FreelancerSignup",
+      "href": "/signup"
+    }
+  },
+  {
+    "id": "df17df2a91b36e77",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/FreelancerSignup.jsx",
+    "sourceLocation": "57:10",
+    "metadata": {
+      "elementType": "link",
+      "label": "/",
+      "labelSource": "static",
+      "associatedComponent": "FreelancerSignup",
+      "href": "/"
+    }
+  },
+  {
+    "id": "2c0b91bf16025671",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/FreelancerSignup.jsx",
+    "sourceLocation": "74:10",
+    "metadata": {
+      "elementType": "form",
+      "label": "form",
+      "labelSource": "static",
+      "associatedComponent": "FreelancerSignup"
+    }
+  },
+  {
+    "id": "22eba768272bef25",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/FreelancerSignup.jsx",
+    "sourceLocation": "84:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "name",
+      "labelSource": "static",
+      "associatedComponent": "FreelancerSignup",
+      "inputType": "text",
+      "placeholder": "John Doe"
+    }
+  },
+  {
+    "id": "e67c8780dc315758",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/FreelancerSignup.jsx",
+    "sourceLocation": "88:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "email",
+      "labelSource": "static",
+      "associatedComponent": "FreelancerSignup",
+      "inputType": "email",
+      "placeholder": "johndoe@email.com"
+    }
+  },
+  {
+    "id": "6fee4a781754efd7",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/FreelancerSignup.jsx",
+    "sourceLocation": "94:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "password",
+      "labelSource": "static",
+      "associatedComponent": "FreelancerSignup",
+      "inputType": "password",
+      "placeholder": "••••••••"
+    }
+  },
+  {
+    "id": "3d8e3af655e9ed46",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/FreelancerSignup.jsx",
+    "sourceLocation": "98:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "phone",
+      "labelSource": "static",
+      "associatedComponent": "FreelancerSignup",
+      "inputType": "tel",
+      "placeholder": "+1 (555) 000-0000"
+    }
+  },
+  {
+    "id": "0e6b668aa1e94daa",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/Login.jsx",
+    "sourceLocation": "100:12",
+    "metadata": {
+      "elementType": "button",
+      "label": "Demo Client",
+      "labelSource": "static",
+      "associatedComponent": "Login"
+    }
+  },
+  {
+    "id": "4237612bfc644203",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/Login.jsx",
+    "sourceLocation": "106:12",
+    "metadata": {
+      "elementType": "button",
+      "label": "Demo Freelancer",
+      "labelSource": "static",
+      "associatedComponent": "Login"
+    }
+  },
+  {
+    "id": "08471ba7410c7a2d",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/Login.jsx",
+    "sourceLocation": "40:10",
+    "metadata": {
+      "elementType": "link",
+      "label": "/",
+      "labelSource": "static",
+      "associatedComponent": "Login",
+      "href": "/"
+    }
+  },
+  {
+    "id": "6e7bd240d462d3e6",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/Login.jsx",
+    "sourceLocation": "57:10",
+    "metadata": {
+      "elementType": "form",
+      "label": "form",
+      "labelSource": "static",
+      "associatedComponent": "Login"
+    }
+  },
+  {
+    "id": "527da6daaea40346",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/Login.jsx",
+    "sourceLocation": "62:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "input",
+      "labelSource": "static",
+      "associatedComponent": "Login",
+      "inputType": "email",
+      "placeholder": "name@email.com"
+    }
+  },
+  {
+    "id": "618c52738a7ff25a",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/Login.jsx",
+    "sourceLocation": "75:16",
+    "metadata": {
+      "elementType": "link",
+      "label": "Forgot?",
+      "labelSource": "static",
+      "associatedComponent": "Login",
+      "href": "#"
+    }
+  },
+  {
+    "id": "e7728127f4933cd8",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/Login.jsx",
+    "sourceLocation": "79:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "input",
+      "labelSource": "static",
+      "associatedComponent": "Login",
+      "inputType": "password",
+      "placeholder": "••••••••"
+    }
+  },
+  {
+    "id": "e77d3594e9ed110f",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/Login.jsx",
+    "sourceLocation": "89:24",
+    "metadata": {
+      "elementType": "button",
+      "label": "Sign In to Workspace",
+      "labelSource": "static",
+      "associatedComponent": "Login"
+    }
+  },
+  {
+    "id": "859939c07d0456e7",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/Login.jsx",
+    "sourceLocation": "95:36",
+    "metadata": {
+      "elementType": "link",
+      "label": "Join Hub",
+      "labelSource": "static",
+      "associatedComponent": "Login",
+      "href": "/signup"
+    }
+  },
+  {
+    "id": "a1bb920c24e010c2",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/RoleSelection.jsx",
+    "sourceLocation": "15:12",
+    "metadata": {
+      "elementType": "link",
+      "label": "/",
+      "labelSource": "static",
+      "associatedComponent": "RoleSelection",
+      "href": "/"
+    }
+  },
+  {
+    "id": "e8ce726e15aa1fb5",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Auth/RoleSelection.jsx",
+    "sourceLocation": "64:35",
+    "metadata": {
+      "elementType": "link",
+      "label": "Log in",
+      "labelSource": "static",
+      "associatedComponent": "RoleSelection",
+      "href": "/login"
+    }
+  },
+  {
+    "id": "98f8063510ec97fb",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/ClientNotificationCenter.jsx",
+    "sourceLocation": "87:11",
+    "metadata": {
+      "elementType": "button",
+      "label": "All",
+      "labelSource": "static",
+      "associatedComponent": "ClientNotificationCenter"
+    }
+  },
+  {
+    "id": "07c01139ace50db2",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/ClientNotificationCenter.jsx",
+    "sourceLocation": "93:11",
+    "metadata": {
+      "elementType": "button",
+      "label": "Unread",
+      "labelSource": "static",
+      "associatedComponent": "ClientNotificationCenter"
+    }
+  },
+  {
+    "id": "2759ebd6c066deeb",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/ClientSettings.jsx",
+    "sourceLocation": "104:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "name",
+      "labelSource": "static",
+      "associatedComponent": "ClientSettings",
+      "inputType": "text"
+    }
+  },
+  {
+    "id": "00453a83a405ea59",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/ClientSettings.jsx",
+    "sourceLocation": "114:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "email",
+      "labelSource": "static",
+      "associatedComponent": "ClientSettings",
+      "inputType": "email"
+    }
+  },
+  {
+    "id": "a944b9fb7fa03fb2",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/ClientSettings.jsx",
+    "sourceLocation": "124:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "phone",
+      "labelSource": "static",
+      "associatedComponent": "ClientSettings",
+      "inputType": "tel",
+      "placeholder": "+1 (555) 000-0000"
+    }
+  },
+  {
+    "id": "266451025b62b3ca",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/ClientSettings.jsx",
+    "sourceLocation": "136:20",
+    "metadata": {
+      "elementType": "input",
+      "label": "city",
+      "labelSource": "static",
+      "associatedComponent": "ClientSettings",
+      "inputType": "text",
+      "placeholder": "e.g. New York"
+    }
+  },
+  {
+    "id": "ed9ce80ff43518a1",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/ClientSettings.jsx",
+    "sourceLocation": "147:20",
+    "metadata": {
+      "elementType": "input",
+      "label": "state",
+      "labelSource": "static",
+      "associatedComponent": "ClientSettings",
+      "inputType": "text",
+      "placeholder": "e.g. NY"
+    }
+  },
+  {
+    "id": "4939f01c7e2f4401",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/ClientSettings.jsx",
+    "sourceLocation": "158:20",
+    "metadata": {
+      "elementType": "input",
+      "label": "country",
+      "labelSource": "static",
+      "associatedComponent": "ClientSettings",
+      "inputType": "text",
+      "placeholder": "e.g. USA"
+    }
+  },
+  {
+    "id": "3cad50ab258d75e9",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/ClientSettings.jsx",
+    "sourceLocation": "181:20",
+    "metadata": {
+      "elementType": "input",
+      "label": "companyName",
+      "labelSource": "static",
+      "associatedComponent": "ClientSettings",
+      "inputType": "text",
+      "placeholder": "e.g. Acme Innovations"
+    }
+  },
+  {
+    "id": "5d806359e312bcc3",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/ClientSettings.jsx",
+    "sourceLocation": "194:22",
+    "metadata": {
+      "elementType": "input",
+      "label": "companyWebsite",
+      "labelSource": "static",
+      "associatedComponent": "ClientSettings",
+      "inputType": "url",
+      "placeholder": "https://company.com"
+    }
+  },
+  {
+    "id": "8f92b689aca2b1f4",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/ClientSettings.jsx",
+    "sourceLocation": "207:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "bio",
+      "labelSource": "static",
+      "associatedComponent": "ClientSettings",
+      "placeholder": "Describe your company's mission and hiring goals..."
+    }
+  },
+  {
+    "id": "f8b9e0653f061eb2",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/ClientSettings.jsx",
+    "sourceLocation": "224:15",
+    "metadata": {
+      "elementType": "button",
+      "label": "loading ? (\n                    <Loader2 className=\"animate-spin\" size={20} />\n                  ) : isSaved ? (\n                     <>\n                        <CheckCircle size={20} className=\"text-[#6FA67A]\" /> Sync Verified\n                     </>\n                  ) : (\n                     <>\n                        <Save size={20} /> Sync Workspace\n                     </>\n                  )",
+      "labelSource": "dynamic",
+      "associatedComponent": "ClientSettings"
+    }
+  },
+  {
+    "id": "0a0679c1d5651a64",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/ClientSettings.jsx",
+    "sourceLocation": "289:23",
+    "metadata": {
+      "elementType": "input",
+      "label": "bio",
+      "labelSource": "static",
+      "associatedComponent": "ClientSettings",
+      "placeholder": "Organization description..."
+    }
+  },
+  {
+    "id": "82b30f9493f11bfa",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/ClientSettings.jsx",
+    "sourceLocation": "296:23",
+    "metadata": {
+      "elementType": "button",
+      "label": "button",
+      "labelSource": "static",
+      "associatedComponent": "ClientSettings"
+    }
+  },
+  {
+    "id": "ac2053a4095f8341",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/ClientSettings.jsx",
+    "sourceLocation": "94:10",
+    "metadata": {
+      "elementType": "form",
+      "label": "form",
+      "labelSource": "static",
+      "associatedComponent": "ClientSettings"
+    }
+  },
+  {
+    "id": "7b6ccc82243cfb50",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/ClientViewFreelancerProfile.jsx",
+    "sourceLocation": "115:8",
+    "metadata": {
+      "elementType": "button",
+      "label": "Go Back",
+      "labelSource": "static",
+      "associatedComponent": "ClientViewFreelancerProfile"
+    }
+  },
+  {
+    "id": "14ee092fc7d54ef9",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/ClientViewFreelancerProfile.jsx",
+    "sourceLocation": "122:6",
+    "metadata": {
+      "elementType": "button",
+      "label": "Return to Notifications",
+      "labelSource": "static",
+      "associatedComponent": "ClientViewFreelancerProfile"
+    }
+  },
+  {
+    "id": "e447941a70d3ed22",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/ClientViewFreelancerProfile.jsx",
+    "sourceLocation": "177:20",
+    "metadata": {
+      "elementType": "button",
+      "label": "Message",
+      "labelSource": "static",
+      "associatedComponent": "ClientViewFreelancerProfile"
+    }
+  },
+  {
+    "id": "8e376696dc442f08",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/ClientViewFreelancerProfile.jsx",
+    "sourceLocation": "180:20",
+    "metadata": {
+      "elementType": "button",
+      "label": "hired ? 'Hire Successful' : (jobData && jobData.status === 'Assigned' ? 'Already Assigned' : 'Hire Now')",
+      "labelSource": "dynamic",
+      "associatedComponent": "ClientViewFreelancerProfile"
+    }
+  },
+  {
+    "id": "53bd75d9d8d66c2c",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/ClientViewFreelancerProfile.jsx",
+    "sourceLocation": "270:20",
+    "metadata": {
+      "elementType": "link",
+      "label": "Visit Showcase",
+      "labelSource": "static",
+      "associatedComponent": "ClientViewFreelancerProfile",
+      "href": "profile.portfolio"
+    }
+  },
+  {
+    "id": "f11121fe2491a322",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/MyJobs.jsx",
+    "sourceLocation": "113:8",
+    "metadata": {
+      "elementType": "link",
+      "label": "Post New Job",
+      "labelSource": "static",
+      "associatedComponent": "MyJobs",
+      "href": "/client/post-job"
+    }
+  },
+  {
+    "id": "4335f0607b840324",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/MyJobs.jsx",
+    "sourceLocation": "124:8",
+    "metadata": {
+      "elementType": "input",
+      "label": "input",
+      "labelSource": "static",
+      "associatedComponent": "MyJobs",
+      "inputType": "text",
+      "placeholder": "Search by title or description..."
+    }
+  },
+  {
+    "id": "c1fdd8d554308467",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/MyJobs.jsx",
+    "sourceLocation": "147:10",
+    "metadata": {
+      "elementType": "link",
+      "label": "Post a Job Now",
+      "labelSource": "static",
+      "associatedComponent": "MyJobs",
+      "href": "/client/post-job"
+    }
+  },
+  {
+    "id": "29e37fa27f2e81a8",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/MyJobs.jsx",
+    "sourceLocation": "171:31",
+    "metadata": {
+      "elementType": "link",
+      "label": "Repository Submission",
+      "labelSource": "static",
+      "associatedComponent": "MyJobs",
+      "href": "job.githubRepoLink"
+    }
+  },
+  {
+    "id": "f39242aec41539a6",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/MyJobs.jsx",
+    "sourceLocation": "205:29",
+    "metadata": {
+      "elementType": "button",
+      "label": "Approve Result",
+      "labelSource": "static",
+      "associatedComponent": "MyJobs"
+    }
+  },
+  {
+    "id": "1d30b842619d02ef",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/MyJobs.jsx",
+    "sourceLocation": "217:28",
+    "metadata": {
+      "elementType": "link",
+      "label": "`${import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000'}${job.attachment}`",
+      "labelSource": "static",
+      "associatedComponent": "MyJobs",
+      "href": "`${import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000'}${job.attachment}`"
+    }
+  },
+  {
+    "id": "b4acfbb42d612157",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/MyJobs.jsx",
+    "sourceLocation": "231:26",
+    "metadata": {
+      "elementType": "button",
+      "label": "button",
+      "labelSource": "static",
+      "associatedComponent": "MyJobs"
+    }
+  },
+  {
+    "id": "c387e8f92f4b12f5",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/MyJobs.jsx",
+    "sourceLocation": "237:26",
+    "metadata": {
+      "elementType": "button",
+      "label": "button",
+      "labelSource": "static",
+      "associatedComponent": "MyJobs"
+    }
+  },
+  {
+    "id": "47c83ac320700bee",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/Overview.jsx",
+    "sourceLocation": "103:10",
+    "metadata": {
+      "elementType": "button",
+      "label": "Initialize Re-Sync",
+      "labelSource": "static",
+      "associatedComponent": "Overview"
+    }
+  },
+  {
+    "id": "02c89f4d1318fe78",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/Overview.jsx",
+    "sourceLocation": "139:12",
+    "metadata": {
+      "elementType": "link",
+      "label": "Management Portal",
+      "labelSource": "static",
+      "associatedComponent": "Overview",
+      "href": "/client/my-jobs"
+    }
+  },
+  {
+    "id": "993626c3fe860b41",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/Overview.jsx",
+    "sourceLocation": "166:20",
+    "metadata": {
+      "elementType": "link",
+      "label": "Audit Repository",
+      "labelSource": "static",
+      "associatedComponent": "Overview",
+      "href": "project.githubRepoLink"
+    }
+  },
+  {
+    "id": "c6ee6872bd1057c3",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/Overview.jsx",
+    "sourceLocation": "183:12",
+    "metadata": {
+      "elementType": "link",
+      "label": "Talent Pool",
+      "labelSource": "static",
+      "associatedComponent": "Overview",
+      "href": "/client/freelancers"
+    }
+  },
+  {
+    "id": "2a6b6c1e38cac78d",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/Overview.jsx",
+    "sourceLocation": "193:18",
+    "metadata": {
+      "elementType": "link",
+      "label": "Post Initial Role",
+      "labelSource": "static",
+      "associatedComponent": "Overview",
+      "href": "/client/post-job"
+    }
+  },
+  {
+    "id": "6df0486e3aea45a4",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/Overview.jsx",
+    "sourceLocation": "209:26",
+    "metadata": {
+      "elementType": "link",
+      "label": "Contact",
+      "labelSource": "static",
+      "associatedComponent": "Overview",
+      "href": "/client/messages"
+    }
+  },
+  {
+    "id": "3654ae5ac2876e1f",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/Overview.jsx",
+    "sourceLocation": "212:26",
+    "metadata": {
+      "elementType": "link",
+      "label": "Details",
+      "labelSource": "static",
+      "associatedComponent": "Overview",
+      "href": "/client/my-jobs"
+    }
+  },
+  {
+    "id": "3dcc3085887d2a66",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/PostJob.jsx",
+    "sourceLocation": "157:8",
+    "metadata": {
+      "elementType": "form",
+      "label": "form",
+      "labelSource": "static",
+      "associatedComponent": "PostJob"
+    }
+  },
+  {
+    "id": "2104b3ea2e7eda78",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/PostJob.jsx",
+    "sourceLocation": "164:14",
+    "metadata": {
+      "elementType": "input",
+      "label": "title",
+      "labelSource": "static",
+      "associatedComponent": "PostJob",
+      "inputType": "text",
+      "placeholder": "e.g. Full-Stack Dev for Fintech Startup"
+    }
+  },
+  {
+    "id": "43d697069787cc2a",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/PostJob.jsx",
+    "sourceLocation": "180:14",
+    "metadata": {
+      "elementType": "input",
+      "label": "description",
+      "labelSource": "static",
+      "associatedComponent": "PostJob",
+      "placeholder": "Project scope and deliverables..."
+    }
+  },
+  {
+    "id": "61454d1ba8156b6e",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/PostJob.jsx",
+    "sourceLocation": "199:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "budget",
+      "labelSource": "static",
+      "associatedComponent": "PostJob",
+      "inputType": "number",
+      "placeholder": "2500"
+    }
+  },
+  {
+    "id": "132cda0b0e13c661",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/PostJob.jsx",
+    "sourceLocation": "216:16",
+    "metadata": {
+      "elementType": "input",
+      "label": "deadline",
+      "labelSource": "static",
+      "associatedComponent": "PostJob",
+      "inputType": "date"
+    }
+  },
+  {
+    "id": "767806e392b97fd2",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/PostJob.jsx",
+    "sourceLocation": "244:20",
+    "metadata": {
+      "elementType": "button",
+      "label": "button",
+      "labelSource": "static",
+      "associatedComponent": "PostJob"
+    }
+  },
+  {
+    "id": "f62f2a8f6c5d8620",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/PostJob.jsx",
+    "sourceLocation": "254:20",
+    "metadata": {
+      "elementType": "input",
+      "label": "input",
+      "labelSource": "static",
+      "associatedComponent": "PostJob",
+      "inputType": "file"
+    }
+  },
+  {
+    "id": "e42b607d16f12e16",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/PostJob.jsx",
+    "sourceLocation": "275:12",
+    "metadata": {
+      "elementType": "button",
+      "label": "loading ? (\n                <>\n                  <Loader2 size={16} className=\"animate-spin\" /> Finalizing...\n                </>\n              ) : (\n                <>Submit Posting</>\n              )",
+      "labelSource": "dynamic",
+      "associatedComponent": "PostJob"
+    }
+  },
+  {
+    "id": "24d18cc0420d051c",
+    "type": "ui_action",
+    "sourceFile": "src/pages/client/PostJob.jsx",
+    "sourceLocation": "288:12",
+    "metadata": {
+      "elementType": "button",
+      "label": "Reset",
+      "labelSource": "static",
+      "associatedComponent": "PostJob"
+    }
+  },
+  {
+    "id": "d09e94fba6e86961",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/ClientDashboard.jsx",
+    "sourceLocation": "116:10",
+    "metadata": {
+      "elementType": "button",
+      "label": "Logout",
+      "labelSource": "static",
+      "associatedComponent": "ClientDashboard"
+    }
+  },
+  {
+    "id": "b2a3ca9206b9511b",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/ClientDashboard.jsx",
+    "sourceLocation": "134:12",
+    "metadata": {
+      "elementType": "link",
+      "label": "Post Job",
+      "labelSource": "static",
+      "associatedComponent": "ClientDashboard",
+      "href": "/client/post-job"
+    }
+  },
+  {
+    "id": "35f8bf2221de10ed",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/ClientDashboard.jsx",
+    "sourceLocation": "140:12",
+    "metadata": {
+      "elementType": "link",
+      "label": "unreadCount > 0 && (\n                <span className=\"absolute top-2 right-2 w-2 h-2 bg-[#F4A261] border-2 border-white rounded-full\"></span>\n              )",
+      "labelSource": "dynamic",
+      "associatedComponent": "ClientDashboard",
+      "href": "/client/notifications"
+    }
+  },
+  {
+    "id": "bbb1b3afa0ae5898",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/ClientDashboard.jsx",
+    "sourceLocation": "81:10",
+    "metadata": {
+      "elementType": "link",
+      "label": "/",
+      "labelSource": "static",
+      "associatedComponent": "ClientDashboard",
+      "href": "/"
+    }
+  },
+  {
+    "id": "8223f258aaec8ae1",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/ClientDashboard.jsx",
+    "sourceLocation": "91:12",
+    "metadata": {
+      "elementType": "link",
+      "label": "({ isActive }) => (\n                <>\n                  <span className={`${isActive ? 'text-white' : 'text-[#C65D2E]/70 group-hover:text-[#C65D2E]'} transition-colors`}>\n                    {item.icon}\n                  </span>\n                  <span className=\"text-sm font-medium leading-none flex-1\">{item.name}</span>\n                </>\n              )",
+      "labelSource": "dynamic",
+      "associatedComponent": "ClientDashboard",
+      "href": "item.path === '' ? '/client' : `/client/${item.path}`"
+    }
+  },
+  {
+    "id": "57f8780618678f73",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/ActiveProjects.jsx",
+    "sourceLocation": "118:12",
+    "metadata": {
+      "elementType": "button",
+      "label": "Browse Marketplace",
+      "labelSource": "static",
+      "associatedComponent": "ActiveProjects"
+    }
+  },
+  {
+    "id": "123bd417c66427b9",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/ActiveProjects.jsx",
+    "sourceLocation": "162:25",
+    "metadata": {
+      "elementType": "input",
+      "label": "input",
+      "labelSource": "static",
+      "associatedComponent": "ActiveProjects",
+      "inputType": "url",
+      "placeholder": "Repository link..."
+    }
+  },
+  {
+    "id": "7c12a0d6178d69f8",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/ActiveProjects.jsx",
+    "sourceLocation": "171:40",
+    "metadata": {
+      "elementType": "button",
+      "label": "updating === job._id ? <Loader2 className=\"animate-spin\" size={12} /> : (\n                         job.status === 'Submitted' ? (\n                           <>\n                              <CheckCircle2 size={14} /> Submitted\n                           </>\n                         ) : (\n                           <>\n                              <ExternalLink size={14} /> Submit\n                           </>\n                         )\n                       )",
+      "labelSource": "dynamic",
+      "associatedComponent": "ActiveProjects"
+    }
+  },
+  {
+    "id": "a1ff253146cf3344",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/CompletedProjects.jsx",
+    "sourceLocation": "127:20",
+    "metadata": {
+      "elementType": "button",
+      "label": "Snapshot",
+      "labelSource": "static",
+      "associatedComponent": "CompletedProjects"
+    }
+  },
+  {
+    "id": "abfd33052bbbae0e",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/CompletedProjects.jsx",
+    "sourceLocation": "94:10",
+    "metadata": {
+      "elementType": "button",
+      "label": "Go to Workspace",
+      "labelSource": "static",
+      "associatedComponent": "CompletedProjects"
+    }
+  },
+  {
+    "id": "69d1074af175708d",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/FindWork.jsx",
+    "sourceLocation": "112:12",
+    "metadata": {
+      "elementType": "input",
+      "label": "input",
+      "labelSource": "static",
+      "associatedComponent": "FindWork",
+      "inputType": "text",
+      "placeholder": "Search projects..."
+    }
+  },
+  {
+    "id": "99cbe82af53ffa73",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/FindWork.jsx",
+    "sourceLocation": "114:10",
+    "metadata": {
+      "elementType": "button",
+      "label": "button",
+      "labelSource": "static",
+      "associatedComponent": "FindWork"
+    }
+  },
+  {
+    "id": "bdeeef03079f6519",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/FindWork.jsx",
+    "sourceLocation": "171:22",
+    "metadata": {
+      "elementType": "link",
+      "label": "Download",
+      "labelSource": "static",
+      "associatedComponent": "FindWork",
+      "href": "`${import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000'}${job.attachment}`"
+    }
+  },
+  {
+    "id": "723db63d16369b10",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/FindWork.jsx",
+    "sourceLocation": "185:17",
+    "metadata": {
+      "elementType": "button",
+      "label": "Apply Now",
+      "labelSource": "static",
+      "associatedComponent": "FindWork"
+    }
+  },
+  {
+    "id": "f069c73dae273240",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/FindWork.jsx",
+    "sourceLocation": "191:17",
+    "metadata": {
+      "elementType": "button",
+      "label": "Details",
+      "labelSource": "static",
+      "associatedComponent": "FindWork"
+    }
+  },
+  {
+    "id": "aca341878e020f90",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/FindWork.jsx",
+    "sourceLocation": "211:16",
+    "metadata": {
+      "elementType": "button",
+      "label": "button",
+      "labelSource": "static",
+      "associatedComponent": "FindWork"
+    }
+  },
+  {
+    "id": "eb6b81aa75a6475c",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/FindWork.jsx",
+    "sourceLocation": "225:16",
+    "metadata": {
+      "elementType": "form",
+      "label": "form",
+      "labelSource": "static",
+      "associatedComponent": "FindWork"
+    }
+  },
+  {
+    "id": "e4493c150325fa05",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/FindWork.jsx",
+    "sourceLocation": "228:20",
+    "metadata": {
+      "elementType": "input",
+      "label": "textarea",
+      "labelSource": "static",
+      "associatedComponent": "FindWork",
+      "placeholder": "Explain why you're the best fit for this project..."
+    }
+  },
+  {
+    "id": "4c69492692402475",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/FindWork.jsx",
+    "sourceLocation": "241:24",
+    "metadata": {
+      "elementType": "input",
+      "label": "input",
+      "labelSource": "static",
+      "associatedComponent": "FindWork",
+      "inputType": "text",
+      "placeholder": "e.g. 7 days"
+    }
+  },
+  {
+    "id": "f71af475e473ec4e",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/FindWork.jsx",
+    "sourceLocation": "256:18",
+    "metadata": {
+      "elementType": "button",
+      "label": "Send Smart Proposal",
+      "labelSource": "static",
+      "associatedComponent": "FindWork"
+    }
+  },
+  {
+    "id": "6efbdeaade9d5709",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/Messages.jsx",
+    "sourceLocation": "112:14",
+    "metadata": {
+      "elementType": "form",
+      "label": "form",
+      "labelSource": "static",
+      "associatedComponent": "Messages"
+    }
+  },
+  {
+    "id": "99532d501d59598d",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/Messages.jsx",
+    "sourceLocation": "113:17",
+    "metadata": {
+      "elementType": "button",
+      "label": "button",
+      "labelSource": "static",
+      "associatedComponent": "Messages"
+    }
+  },
+  {
+    "id": "71ffe36ee85d329a",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/Messages.jsx",
+    "sourceLocation": "114:17",
+    "metadata": {
+      "elementType": "input",
+      "label": "input",
+      "labelSource": "static",
+      "associatedComponent": "Messages",
+      "inputType": "text",
+      "placeholder": "Type your message here..."
+    }
+  },
+  {
+    "id": "40a92593a50def11",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/Messages.jsx",
+    "sourceLocation": "121:17",
+    "metadata": {
+      "elementType": "button",
+      "label": "button",
+      "labelSource": "static",
+      "associatedComponent": "Messages"
+    }
+  },
+  {
+    "id": "b16328800dfc0410",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/Messages.jsx",
+    "sourceLocation": "122:17",
+    "metadata": {
+      "elementType": "button",
+      "label": "button",
+      "labelSource": "static",
+      "associatedComponent": "Messages"
+    }
+  },
+  {
+    "id": "18b4427aefacf894",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/Messages.jsx",
+    "sourceLocation": "36:12",
+    "metadata": {
+      "elementType": "input",
+      "label": "input",
+      "labelSource": "static",
+      "associatedComponent": "Messages",
+      "inputType": "text",
+      "placeholder": "Search chats..."
+    }
+  },
+  {
+    "id": "ae0140413002344f",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/Messages.jsx",
+    "sourceLocation": "41:12",
+    "metadata": {
+      "elementType": "button",
+      "label": "button",
+      "labelSource": "static",
+      "associatedComponent": "Messages"
+    }
+  },
+  {
+    "id": "c68a7749802f86c8",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/Messages.jsx",
+    "sourceLocation": "77:17",
+    "metadata": {
+      "elementType": "button",
+      "label": "button",
+      "labelSource": "static",
+      "associatedComponent": "Messages"
+    }
+  },
+  {
+    "id": "194b3e1c3a4cad41",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/Messages.jsx",
+    "sourceLocation": "78:17",
+    "metadata": {
+      "elementType": "button",
+      "label": "button",
+      "labelSource": "static",
+      "associatedComponent": "Messages"
+    }
+  },
+  {
+    "id": "8031d4c2ad56c2b5",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/Messages.jsx",
+    "sourceLocation": "79:17",
+    "metadata": {
+      "elementType": "button",
+      "label": "button",
+      "labelSource": "static",
+      "associatedComponent": "Messages"
+    }
+  },
+  {
+    "id": "c26f6bcccb20ed6d",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/Overview.jsx",
+    "sourceLocation": "138:14",
+    "metadata": {
+      "elementType": "link",
+      "label": "Project Hub",
+      "labelSource": "static",
+      "associatedComponent": "Overview",
+      "href": "/freelancer-dashboard/active-projects"
+    }
+  },
+  {
+    "id": "bf2f7245742b57ab",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/Overview.jsx",
+    "sourceLocation": "178:23",
+    "metadata": {
+      "elementType": "button",
+      "label": "Manage Deployment",
+      "labelSource": "static",
+      "associatedComponent": "Overview"
+    }
+  },
+  {
+    "id": "272ed27aab4d89cd",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/Overview.jsx",
+    "sourceLocation": "198:14",
+    "metadata": {
+      "elementType": "link",
+      "label": "Marketplace",
+      "labelSource": "static",
+      "associatedComponent": "Overview",
+      "href": "/freelancer-dashboard/find-work"
+    }
+  },
+  {
+    "id": "f608b4aa13994404",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/Overview.jsx",
+    "sourceLocation": "237:25",
+    "metadata": {
+      "elementType": "button",
+      "label": "Quick Apply",
+      "labelSource": "static",
+      "associatedComponent": "Overview"
+    }
+  },
+  {
+    "id": "f13bbf2b806e790c",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/ProfileSettings.jsx",
+    "sourceLocation": "102:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "input",
+      "labelSource": "static",
+      "associatedComponent": "ProfileSettings",
+      "inputType": "email"
+    }
+  },
+  {
+    "id": "bb0a5ffe2c514ca6",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/ProfileSettings.jsx",
+    "sourceLocation": "111:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "input",
+      "labelSource": "static",
+      "associatedComponent": "ProfileSettings",
+      "inputType": "tel"
+    }
+  },
+  {
+    "id": "aac51ea70d25976b",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/ProfileSettings.jsx",
+    "sourceLocation": "121:20",
+    "metadata": {
+      "elementType": "input",
+      "label": "input",
+      "labelSource": "static",
+      "associatedComponent": "ProfileSettings",
+      "inputType": "text"
+    }
+  },
+  {
+    "id": "85427e957e503579",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/ProfileSettings.jsx",
+    "sourceLocation": "130:20",
+    "metadata": {
+      "elementType": "input",
+      "label": "input",
+      "labelSource": "static",
+      "associatedComponent": "ProfileSettings",
+      "inputType": "text"
+    }
+  },
+  {
+    "id": "0d2f5ec5f4d42c52",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/ProfileSettings.jsx",
+    "sourceLocation": "139:20",
+    "metadata": {
+      "elementType": "input",
+      "label": "input",
+      "labelSource": "static",
+      "associatedComponent": "ProfileSettings",
+      "inputType": "text"
+    }
+  },
+  {
+    "id": "813a766f6a4e1bfd",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/ProfileSettings.jsx",
+    "sourceLocation": "159:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "input",
+      "labelSource": "static",
+      "associatedComponent": "ProfileSettings",
+      "inputType": "text",
+      "placeholder": "React, AWS, Node, Figma..."
+    }
+  },
+  {
+    "id": "2af5d48d1b790bd8",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/ProfileSettings.jsx",
+    "sourceLocation": "170:20",
+    "metadata": {
+      "elementType": "input",
+      "label": "select",
+      "labelSource": "static",
+      "associatedComponent": "ProfileSettings"
+    }
+  },
+  {
+    "id": "5871a65c70a1e78f",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/ProfileSettings.jsx",
+    "sourceLocation": "182:20",
+    "metadata": {
+      "elementType": "input",
+      "label": "input",
+      "labelSource": "static",
+      "associatedComponent": "ProfileSettings",
+      "inputType": "url"
+    }
+  },
+  {
+    "id": "ac236d3ffbd7c09f",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/ProfileSettings.jsx",
+    "sourceLocation": "194:15",
+    "metadata": {
+      "elementType": "button",
+      "label": "Discard",
+      "labelSource": "static",
+      "associatedComponent": "ProfileSettings"
+    }
+  },
+  {
+    "id": "3119621bf4268fa7",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/ProfileSettings.jsx",
+    "sourceLocation": "195:15",
+    "metadata": {
+      "elementType": "button",
+      "label": "loading ? (\n                    'Uplink Active...'\n                  ) : isSaved ? (\n                     <>\n                        <CheckCircle size={20} className=\"text-[#6FA67A]\" /> Changes Persisted\n                     </>\n                  ) : (\n                     <>\n                        <Save size={20} /> Sync Profile\n                     </>\n                  )",
+      "labelSource": "dynamic",
+      "associatedComponent": "ProfileSettings"
+    }
+  },
+  {
+    "id": "1ed881db5336d92c",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/ProfileSettings.jsx",
+    "sourceLocation": "83:10",
+    "metadata": {
+      "elementType": "form",
+      "label": "form",
+      "labelSource": "static",
+      "associatedComponent": "ProfileSettings"
+    }
+  },
+  {
+    "id": "ce65baadf75aab81",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/Freelancer/ProfileSettings.jsx",
+    "sourceLocation": "93:18",
+    "metadata": {
+      "elementType": "input",
+      "label": "input",
+      "labelSource": "static",
+      "associatedComponent": "ProfileSettings",
+      "inputType": "text"
+    }
+  },
+  {
+    "id": "3af66424f7019ca3",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/FreelancerDashboard.jsx",
+    "sourceLocation": "47:10",
+    "metadata": {
+      "elementType": "link",
+      "label": "/",
+      "labelSource": "static",
+      "associatedComponent": "FreelancerDashboard",
+      "href": "/"
+    }
+  },
+  {
+    "id": "f667d4d024c387d2",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/FreelancerDashboard.jsx",
+    "sourceLocation": "57:12",
+    "metadata": {
+      "elementType": "link",
+      "label": "({ isActive }) => (\n                <>\n                  <span className={`${isActive ? 'text-white' : 'text-[#C65D2E]/70 group-hover:text-[#C65D2E]'} transition-colors`}>\n                    {item.icon}\n                  </span>\n                  <span className=\"text-sm font-medium leading-none flex-1\">{item.name}</span>\n                </>\n              )",
+      "labelSource": "dynamic",
+      "associatedComponent": "FreelancerDashboard",
+      "href": "item.path === '' ? '/freelancer-dashboard' : `/freelancer-dashboard/${item.path}`"
+    }
+  },
+  {
+    "id": "4d69e676d4e7088f",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/FreelancerDashboard.jsx",
+    "sourceLocation": "82:10",
+    "metadata": {
+      "elementType": "button",
+      "label": "Logout",
+      "labelSource": "static",
+      "associatedComponent": "FreelancerDashboard"
+    }
+  },
+  {
+    "id": "52e6b9b95483efdd",
+    "type": "ui_action",
+    "sourceFile": "src/pages/Dashboards/FreelancerDashboard.jsx",
+    "sourceLocation": "97:12",
+    "metadata": {
+      "elementType": "button",
+      "label": "button",
+      "labelSource": "static",
+      "associatedComponent": "FreelancerDashboard"
+    }
+  },
+  {
+    "id": "75fdc58e32a65864",
+    "type": "ui_action",
+    "sourceFile": "src/pages/messages/Messages.jsx",
+    "sourceLocation": "168:16",
+    "metadata": {
+      "elementType": "input",
+      "label": "input",
+      "labelSource": "static",
+      "associatedComponent": "Messages",
+      "inputType": "text",
+      "placeholder": "Search..."
+    }
+  },
+  {
+    "id": "4a6cfca6e005eade",
+    "type": "ui_action",
+    "sourceFile": "src/pages/messages/Messages.jsx",
+    "sourceLocation": "187:19",
+    "metadata": {
+      "elementType": "button",
+      "label": "button",
+      "labelSource": "static",
+      "associatedComponent": "Messages"
+    }
+  },
+  {
+    "id": "4fb87db6399ed18c",
+    "type": "ui_action",
+    "sourceFile": "src/pages/messages/Messages.jsx",
+    "sourceLocation": "223:21",
+    "metadata": {
+      "elementType": "button",
+      "label": "button",
+      "labelSource": "static",
+      "associatedComponent": "Messages"
+    }
+  },
+  {
+    "id": "66023e9baa719eae",
+    "type": "ui_action",
+    "sourceFile": "src/pages/messages/Messages.jsx",
+    "sourceLocation": "243:21",
+    "metadata": {
+      "elementType": "button",
+      "label": "button",
+      "labelSource": "static",
+      "associatedComponent": "Messages"
+    }
+  },
+  {
+    "id": "3acd3d39c4defbba",
+    "type": "ui_action",
+    "sourceFile": "src/pages/messages/Messages.jsx",
+    "sourceLocation": "244:21",
+    "metadata": {
+      "elementType": "button",
+      "label": "button",
+      "labelSource": "static",
+      "associatedComponent": "Messages"
+    }
+  },
+  {
+    "id": "2b9f6e1496d7e4fa",
+    "type": "ui_action",
+    "sourceFile": "src/pages/messages/Messages.jsx",
+    "sourceLocation": "245:21",
+    "metadata": {
+      "elementType": "button",
+      "label": "button",
+      "labelSource": "static",
+      "associatedComponent": "Messages"
+    }
+  },
+  {
+    "id": "2a93f90f4c1f21f3",
+    "type": "ui_action",
+    "sourceFile": "src/pages/messages/Messages.jsx",
+    "sourceLocation": "288:18",
+    "metadata": {
+      "elementType": "form",
+      "label": "form",
+      "labelSource": "static",
+      "associatedComponent": "Messages"
+    }
+  },
+  {
+    "id": "71297bd9fa9018f0",
+    "type": "ui_action",
+    "sourceFile": "src/pages/messages/Messages.jsx",
+    "sourceLocation": "289:21",
+    "metadata": {
+      "elementType": "button",
+      "label": "button",
+      "labelSource": "static",
+      "associatedComponent": "Messages"
+    }
+  },
+  {
+    "id": "0e6ccc05f9ed1cc0",
+    "type": "ui_action",
+    "sourceFile": "src/pages/messages/Messages.jsx",
+    "sourceLocation": "290:24",
+    "metadata": {
+      "elementType": "input",
+      "label": "input",
+      "labelSource": "static",
+      "associatedComponent": "Messages",
+      "inputType": "text",
+      "placeholder": "Message..."
+    }
+  },
+  {
+    "id": "abbee943f2485c2c",
+    "type": "ui_action",
+    "sourceFile": "src/pages/messages/Messages.jsx",
+    "sourceLocation": "297:21",
+    "metadata": {
+      "elementType": "button",
+      "label": "button",
+      "labelSource": "static",
+      "associatedComponent": "Messages"
+    }
+  },
+  {
+    "id": "530875d289ef5d98",
+    "type": "ui_action",
+    "sourceFile": "src/pages/messages/Messages.jsx",
+    "sourceLocation": "298:21",
+    "metadata": {
+      "elementType": "button",
+      "label": "button",
+      "labelSource": "static",
+      "associatedComponent": "Messages"
+    }
+  }
+]

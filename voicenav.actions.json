@@ -1,0 +1,13 @@
+{
+  "version": "2.0",
+  "appId": "demo-app",
+  "checksum": "abc123",
+  "actions": [
+    {
+      "id": "open_tasks",
+      "type": "navigation",
+      "description": "Navigate user to the tasks page",
+      "path": "/tasks"
+    }
+  ]
+}
