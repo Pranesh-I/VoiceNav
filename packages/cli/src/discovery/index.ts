@@ -42,3 +42,6 @@ import './handlers/index.js';
 // API Endpoint discovery (A3) — side-effect import registers agnostic pass
 import './api/index.js';
 
+// UI Discovery (A4) — side-effect import registers agnostic pass
+import './ui/index.js';
+
