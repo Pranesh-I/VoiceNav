@@ -4,6 +4,9 @@ import { discoverCapabilities } from './discovery/index.js';
 import { writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
+import { buildRegistry } from './registry/orchestrator.js';
+import { writeRegistry } from './registry/writers/index.js';
+
 async function main() {
   const args = process.argv.slice(2);
   let command = 'scan';
@@ -16,19 +19,69 @@ async function main() {
     } else if (args[i] === 'scan') {
       command = 'scan';
     }
+    else if (args[i] === 'registry') {
+      command = 'registry';
+    }
   }
 
-  if (command !== 'scan') {
-    console.error('Usage: voicenav scan [--out path/to/output.json]');
+  if (
+    command !== 'scan' &&
+    command !== 'registry'
+  ) {
+    console.error(`
+      Usage:
+
+      voicenav scan
+      voicenav registry
+
+      Optional:
+      --out <path>
+    `);
     process.exit(1);
   }
 
-  console.log('🚀 Starting VoiceNav Capability Discovery...');
+  console.log(
+  command === 'registry'
+      ? '🚀 Starting VoiceNav Registry Generation...'
+      : '🚀 Starting VoiceNav Capability Discovery...'
+  );
   const start = performance.now();
 
   try {
     const cwd = process.cwd();
     const graph = await discoverCapabilities(cwd);
+
+    if (command === 'registry') {
+
+      const registry =
+        buildRegistry(graph);
+
+      const outputPath =
+        await writeRegistry(
+          registry,
+          cwd,
+        );
+
+      const end = performance.now();
+      const durationMs = end - start;
+
+      console.log('\n--- VoiceNav Registry Summary ---');
+      console.log(
+        `Actions Generated : ${registry.actions.length}`
+      );
+      console.log(
+        `Checksum          : ${registry.checksum}`
+      );
+      console.log(
+        `Execution Time    : ${(durationMs / 1000).toFixed(2)}s`
+      );
+      console.log(
+        `Output written to : ${outputPath}`
+      );
+      console.log('---------------------------------\n');
+
+      return;
+    }
     
     const end = performance.now();
     const durationMs = end - start;

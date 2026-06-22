@@ -1,13 +1,2086 @@
 {
   "version": "2.0",
-  "appId": "demo-app",
-  "checksum": "abc123",
+  "appId": "voicenav-app",
+  "generatedAt": "2026-06-21T12:30:11.163Z",
+  "checksum": "f021ad9c36d4096c795fd6ab6aaba27d05c78fdb487989e64466dd058fb4f9a3",
   "actions": [
     {
-      "id": "open_tasks",
-      "type": "navigation",
-      "description": "Navigate user to the tasks page",
-      "path": "/tasks"
+      "id": "api_get_health_bfokjmfj",
+      "type": "api_endpoint",
+      "description": "Invoke API request to GET /health endpoint",
+      "examples": [
+        "get request",
+        "call /health",
+        "execute get endpoint"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.161Z",
+        "sourceCapabilityId": "15ea9c590d3e5aaf",
+        "sourceFile": "tests/fixtures/api-app/app.ts"
+      },
+      "method": "GET",
+      "path": "/health"
+    },
+    {
+      "id": "api_put_auth_update_gimaibnn",
+      "type": "api_endpoint",
+      "description": "Invoke API request to PUT /auth/update endpoint",
+      "examples": [
+        "put request",
+        "call /auth/update",
+        "execute put endpoint"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "68c081dd127b2fd9",
+        "sourceFile": "tests/fixtures/api-app/fastify-app.ts"
+      },
+      "method": "PUT",
+      "path": "/auth/update"
+    },
+    {
+      "id": "api_delete_old_efenmhgf",
+      "type": "api_endpoint",
+      "description": "Invoke API request to DELETE /old endpoint",
+      "examples": [
+        "delete request",
+        "call /old",
+        "execute delete endpoint"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "454dc7652d37bb7f",
+        "sourceFile": "tests/fixtures/api-app/fastify-app.ts"
+      },
+      "method": "DELETE",
+      "path": "/old"
+    },
+    {
+      "id": "api_get_fast_api_hello_bfhdpamh",
+      "type": "api_endpoint",
+      "description": "Invoke API request to GET /fast-api/hello endpoint",
+      "examples": [
+        "get request",
+        "call /fast-api/hello",
+        "execute get endpoint"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "1573f0c7faa04fd1",
+        "sourceFile": "tests/fixtures/api-app/fastify-app.ts"
+      },
+      "method": "GET",
+      "path": "/fast-api/hello"
+    },
+    {
+      "id": "api_post_fast_api_world_pmcpokca",
+      "type": "api_endpoint",
+      "description": "Invoke API request to POST /fast-api/world endpoint",
+      "examples": [
+        "post request",
+        "call /fast-api/world",
+        "execute post endpoint"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "fc2fea2012e9a8ef",
+        "sourceFile": "tests/fixtures/api-app/fastify-app.ts"
+      },
+      "method": "POST",
+      "path": "/fast-api/world"
+    },
+    {
+      "id": "api_get_ping_iaanhjnj",
+      "type": "api_endpoint",
+      "description": "Invoke API request to GET /ping endpoint",
+      "examples": [
+        "get request",
+        "call /ping",
+        "execute get endpoint"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "800d79d9eca52d64",
+        "sourceFile": "tests/fixtures/api-app/fastify-app.ts"
+      },
+      "method": "GET",
+      "path": "/ping"
+    },
+    {
+      "id": "api_post_auth_login_enlbcmgh",
+      "type": "api_endpoint",
+      "description": "Invoke API request to POST /auth/login endpoint",
+      "examples": [
+        "post request",
+        "call /auth/login",
+        "execute post endpoint"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "4db12c67caf21e68",
+        "sourceFile": "tests/fixtures/api-app/fastify-app.ts"
+      },
+      "method": "POST",
+      "path": "/auth/login"
+    },
+    {
+      "id": "api_post_pet_hgjkjeab",
+      "type": "api_endpoint",
+      "description": "Invoke API request to POST /pet endpoint",
+      "examples": [
+        "post request",
+        "call /pet",
+        "execute post endpoint"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "769a94011099c978",
+        "sourceFile": "tests/fixtures/api-app/openapi.json"
+      },
+      "method": "POST",
+      "path": "/pet"
+    },
+    {
+      "id": "api_get_api_status_gfjiahma",
+      "type": "api_endpoint",
+      "description": "Invoke API request to GET /api/status endpoint",
+      "examples": [
+        "get request",
+        "call /api/status",
+        "execute get endpoint"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "659807c0e983dbdb",
+        "sourceFile": "tests/fixtures/api-app/routes/api.ts"
+      },
+      "method": "GET",
+      "path": "/api/status"
+    },
+    {
+      "id": "api_get_api_v_products_elkdhfcg",
+      "type": "api_endpoint",
+      "description": "Invoke API request to GET /api/v1/products endpoint",
+      "examples": [
+        "get request",
+        "call /api/v1/products",
+        "execute get endpoint"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "4ba3752686316c50",
+        "sourceFile": "tests/fixtures/api-app/routes/products.ts"
+      },
+      "method": "GET",
+      "path": "/api/v1/products"
+    },
+    {
+      "id": "api_get_api_v_products_id_eodamcho",
+      "type": "api_endpoint",
+      "description": "Invoke API request to GET /api/v1/products/:id endpoint",
+      "examples": [
+        "get request",
+        "call /api/v1/products/:id",
+        "execute get endpoint"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "4e30c27ef10fab49",
+        "sourceFile": "tests/fixtures/api-app/routes/products.ts"
+      },
+      "method": "GET",
+      "path": "/api/v1/products/:id"
+    },
+    {
+      "id": "api_get_api_v_users_nbcgpgda",
+      "type": "api_endpoint",
+      "description": "Invoke API request to GET /api/v1/users endpoint",
+      "examples": [
+        "get request",
+        "call /api/v1/users",
+        "execute get endpoint"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "d126f6307ecabdb4",
+        "sourceFile": "tests/fixtures/api-app/routes/users.ts"
+      },
+      "method": "GET",
+      "path": "/api/v1/users"
+    },
+    {
+      "id": "api_post_api_v_users_pooppded",
+      "type": "api_endpoint",
+      "description": "Invoke API request to POST /api/v1/users endpoint",
+      "examples": [
+        "post request",
+        "call /api/v1/users",
+        "execute post endpoint"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "feeff3434389dd87",
+        "sourceFile": "tests/fixtures/api-app/routes/users.ts"
+      },
+      "method": "POST",
+      "path": "/api/v1/users"
+    },
+    {
+      "id": "api_get_api_v_users_id_geecemdc",
+      "type": "api_endpoint",
+      "description": "Invoke API request to GET /api/v1/users/:id endpoint",
+      "examples": [
+        "get request",
+        "call /api/v1/users/:id",
+        "execute get endpoint"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "64424c32da951f01",
+        "sourceFile": "tests/fixtures/api-app/routes/users.ts"
+      },
+      "method": "GET",
+      "path": "/api/v1/users/:id"
+    },
+    {
+      "id": "api_put_api_v_users_id_bfmcclop",
+      "type": "api_endpoint",
+      "description": "Invoke API request to PUT /api/v1/users/:id endpoint",
+      "examples": [
+        "put request",
+        "call /api/v1/users/:id",
+        "execute put endpoint"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "15c22befbca7f5f7",
+        "sourceFile": "tests/fixtures/api-app/routes/users.ts"
+      },
+      "method": "PUT",
+      "path": "/api/v1/users/:id"
+    },
+    {
+      "id": "api_delete_api_v_users_id_hgbpmnaf",
+      "type": "api_endpoint",
+      "description": "Invoke API request to DELETE /api/v1/users/:id endpoint",
+      "examples": [
+        "delete request",
+        "call /api/v1/users/:id",
+        "execute delete endpoint"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "761fcd05974b1bb2",
+        "sourceFile": "tests/fixtures/api-app/routes/users.ts"
+      },
+      "method": "DELETE",
+      "path": "/api/v1/users/:id"
+    },
+    {
+      "id": "api_get_api_tasks_nmoebcoe",
+      "type": "api_endpoint",
+      "description": "Invoke API request to GET /api/tasks endpoint",
+      "examples": [
+        "get request",
+        "call /api/tasks",
+        "execute get endpoint"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "dce412e47cd37832",
+        "sourceFile": "tests/fixtures/combined-app/server/app.ts"
+      },
+      "method": "GET",
+      "path": "/api/tasks"
+    },
+    {
+      "id": "api_post_api_tasks_dlhoniee",
+      "type": "api_endpoint",
+      "description": "Invoke API request to POST /api/tasks endpoint",
+      "examples": [
+        "post request",
+        "call /api/tasks",
+        "execute post endpoint"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "3b7ed844fac7b82d",
+        "sourceFile": "tests/fixtures/combined-app/server/app.ts"
+      },
+      "method": "POST",
+      "path": "/api/tasks"
+    },
+    {
+      "id": "api_delete_api_tasks_id_kpddhgpg",
+      "type": "api_endpoint",
+      "description": "Invoke API request to DELETE /api/tasks/:id endpoint",
+      "examples": [
+        "delete request",
+        "call /api/tasks/:id",
+        "execute delete endpoint"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "af3376f65a9f652f",
+        "sourceFile": "tests/fixtures/combined-app/server/app.ts"
+      },
+      "method": "DELETE",
+      "path": "/api/tasks/:id"
+    },
+    {
+      "id": "api_get_stats_jdimfjic",
+      "type": "api_endpoint",
+      "description": "Invoke API request to GET /stats endpoint",
+      "examples": [
+        "get request",
+        "call /stats",
+        "execute get endpoint"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "938c5982a02e6111",
+        "sourceFile": "tests/fixtures/combined-app/server/openapi.json"
+      },
+      "method": "GET",
+      "path": "/stats"
+    },
+    {
+      "id": "fn_create_ast_cache_meongnic",
+      "type": "handler",
+      "description": "Execute application handler to create ast cache",
+      "examples": [
+        "create ast cache",
+        "please create ast cache",
+        "can you create ast cache"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "c4ed6d8282ecb910",
+        "sourceFile": "src/discovery/parser.ts"
+      },
+      "handler": "createAstCache"
+    },
+    {
+      "id": "fn_handle_delete_kogndghb",
+      "type": "handler",
+      "description": "Execute application handler to delete",
+      "examples": [
+        "delete",
+        "please delete",
+        "can you delete"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "ae6d36714369e2c6",
+        "sourceFile": "tests/fixtures/combined-app/App.tsx"
+      },
+      "handler": "handleDelete"
+    },
+    {
+      "id": "fn_fetch_tasks_hfdmhmdk",
+      "type": "handler",
+      "description": "Execute application handler to fetch tasks",
+      "examples": [
+        "fetch tasks",
+        "please fetch tasks",
+        "can you fetch tasks"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "753c7c3ac6f981b9",
+        "sourceFile": "tests/fixtures/combined-app/App.tsx"
+      },
+      "handler": "fetchTasks"
+    },
+    {
+      "id": "fn_create_task_ogpmckhb",
+      "type": "handler",
+      "description": "Execute application handler to create task",
+      "examples": [
+        "create task",
+        "please create task",
+        "can you create task"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "e6fc2a71f541f0b8",
+        "sourceFile": "tests/fixtures/combined-app/TaskForm.tsx"
+      },
+      "handler": "createTask"
+    },
+    {
+      "id": "fn_handle_submit_fmpabjnm",
+      "type": "handler",
+      "description": "Execute application handler to submit",
+      "examples": [
+        "submit",
+        "please submit",
+        "can you submit"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "5cf019dcde9bbdc8",
+        "sourceFile": "tests/fixtures/combined-app/TaskForm.tsx"
+      },
+      "handler": "handleSubmit"
+    },
+    {
+      "id": "fn_handle_click_pfiaehkp",
+      "type": "handler",
+      "description": "Execute application handler to click1",
+      "examples": [
+        "click1",
+        "please click1",
+        "can you click1"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "f58047af0d7acd54",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Button.tsx"
+      },
+      "handler": "handleClick1"
+    },
+    {
+      "id": "fn_handle_click_palfneng",
+      "type": "handler",
+      "description": "Execute application handler to click2",
+      "examples": [
+        "click2",
+        "please click2",
+        "can you click2"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "f0b5d4d686d80e8e",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Button.tsx"
+      },
+      "handler": "handleClick2"
+    },
+    {
+      "id": "fn_handle_click_cpafjkad",
+      "type": "handler",
+      "description": "Execute application handler to click3",
+      "examples": [
+        "click3",
+        "please click3",
+        "can you click3"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "2f059a03400c620d",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Button.tsx"
+      },
+      "handler": "handleClick3"
+    },
+    {
+      "id": "fn_on_action_kcofoaaa",
+      "type": "handler",
+      "description": "Execute application handler to on action1",
+      "examples": [
+        "on action1",
+        "please on action1",
+        "can you on action1"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "a2e5e00096c16014",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Button.tsx"
+      },
+      "handler": "onAction1"
+    },
+    {
+      "id": "fn_on_action_cacpfajn",
+      "type": "handler",
+      "description": "Execute application handler to on action2",
+      "examples": [
+        "on action2",
+        "please on action2",
+        "can you on action2"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.162Z",
+        "sourceCapabilityId": "202f509d5ae809f5",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Button.tsx"
+      },
+      "handler": "onAction2"
+    },
+    {
+      "id": "fn_anonymous_daccofia",
+      "type": "handler",
+      "description": "Execute anonymous application action handler",
+      "examples": [
+        "<anonymous>",
+        "please <anonymous>",
+        "can you <anonymous>"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "3022e580bd76745b",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Button.tsx"
+      },
+      "handler": "<anonymous>"
+    },
+    {
+      "id": "fn_anonymous_ninmkfek",
+      "type": "handler",
+      "description": "Execute anonymous application action handler",
+      "examples": [
+        "<anonymous>",
+        "please <anonymous>",
+        "can you <anonymous>"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "d8dca54a48f07f7f",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Button.tsx"
+      },
+      "handler": "<anonymous>"
+    },
+    {
+      "id": "fn_anonymous_gbnjmade",
+      "type": "handler",
+      "description": "Execute anonymous application action handler",
+      "examples": [
+        "<anonymous>",
+        "please <anonymous>",
+        "can you <anonymous>"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "61d9c034be282981",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Button.tsx"
+      },
+      "handler": "<anonymous>"
+    },
+    {
+      "id": "fn_anonymous_ocnlkelm",
+      "type": "handler",
+      "description": "Execute anonymous application action handler",
+      "examples": [
+        "<anonymous>",
+        "please <anonymous>",
+        "can you <anonymous>"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "e2dba4bcbf1d291d",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Button.tsx"
+      },
+      "handler": "<anonymous>"
+    },
+    {
+      "id": "fn_anonymous_kikniokj",
+      "type": "handler",
+      "description": "Execute anonymous application action handler",
+      "examples": [
+        "<anonymous>",
+        "please <anonymous>",
+        "can you <anonymous>"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "a8ad8ea92b6d2831",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Button.tsx"
+      },
+      "handler": "<anonymous>"
+    },
+    {
+      "id": "fn_find_user_gjfdmpgc",
+      "type": "handler",
+      "description": "Execute application handler to find user1",
+      "examples": [
+        "find user1",
+        "please find user1",
+        "can you find user1"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "6953cf627d61f11c",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Button.tsx"
+      },
+      "handler": "findUser1"
+    },
+    {
+      "id": "fn_handle_submit_agohdcge",
+      "type": "handler",
+      "description": "Execute application handler to submit2",
+      "examples": [
+        "submit2",
+        "please submit2",
+        "can you submit2"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "06e73264fcefb058",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Form.tsx"
+      },
+      "handler": "handleSubmit2"
+    },
+    {
+      "id": "fn_anonymous_mhijjdlj",
+      "type": "handler",
+      "description": "Execute anonymous application action handler",
+      "examples": [
+        "<anonymous>",
+        "please <anonymous>",
+        "can you <anonymous>"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "c78993b93b31666e",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Form.tsx"
+      },
+      "handler": "<anonymous>"
+    },
+    {
+      "id": "fn_anonymous_lgojplmn",
+      "type": "handler",
+      "description": "Execute anonymous application action handler",
+      "examples": [
+        "<anonymous>",
+        "please <anonymous>",
+        "can you <anonymous>"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "b6e9fbcd0fa5ad4d",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Form.tsx"
+      },
+      "handler": "<anonymous>"
+    },
+    {
+      "id": "fn_anonymous_elagiieb",
+      "type": "handler",
+      "description": "Execute anonymous application action handler",
+      "examples": [
+        "<anonymous>",
+        "please <anonymous>",
+        "can you <anonymous>"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "4b068841199ef401",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Form.tsx"
+      },
+      "handler": "<anonymous>"
+    },
+    {
+      "id": "fn_handle_submit_gamjhfaa",
+      "type": "handler",
+      "description": "Execute application handler to submit1",
+      "examples": [
+        "submit1",
+        "please submit1",
+        "can you submit1"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "60c97500fc1781c9",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Form.tsx"
+      },
+      "handler": "handleSubmit1"
+    },
+    {
+      "id": "fn_logout_afkkejdn",
+      "type": "handler",
+      "description": "Execute application handler to logout1",
+      "examples": [
+        "logout1",
+        "please logout1",
+        "can you logout1"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "05aa493dfcd1c326",
+        "sourceFile": "tests/fixtures/handlers-app/src/controllers/UserController.ts"
+      },
+      "handler": "logout1"
+    },
+    {
+      "id": "fn_login_gkhojffb",
+      "type": "handler",
+      "description": "Execute application handler to login2",
+      "examples": [
+        "login2",
+        "please login2",
+        "can you login2"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "6a7e955102ff4173",
+        "sourceFile": "tests/fixtures/handlers-app/src/controllers/UserController.ts"
+      },
+      "handler": "login2"
+    },
+    {
+      "id": "fn_logout_agpcjbgo",
+      "type": "handler",
+      "description": "Execute application handler to logout2",
+      "examples": [
+        "logout2",
+        "please logout2",
+        "can you logout2"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "06f2916e8e313006",
+        "sourceFile": "tests/fixtures/handlers-app/src/controllers/UserController.ts"
+      },
+      "handler": "logout2"
+    },
+    {
+      "id": "fn_logout_aopelglj",
+      "type": "handler",
+      "description": "Execute application handler to logout3",
+      "examples": [
+        "logout3",
+        "please logout3",
+        "can you logout3"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "0ef4b6b9c05ed20d",
+        "sourceFile": "tests/fixtures/handlers-app/src/controllers/UserController.ts"
+      },
+      "handler": "logout3"
+    },
+    {
+      "id": "fn_login_blogellm",
+      "type": "handler",
+      "description": "Execute application handler to login1",
+      "examples": [
+        "login1",
+        "please login1",
+        "can you login1"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "1be64bbc978fa083",
+        "sourceFile": "tests/fixtures/handlers-app/src/controllers/UserController.ts"
+      },
+      "handler": "login1"
+    },
+    {
+      "id": "fn_default_user_service_kahkkfab",
+      "type": "handler",
+      "description": "Execute application handler to default user service",
+      "examples": [
+        "default user service",
+        "please default user service",
+        "can you default user service"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "a07aa501e9dfc915",
+        "sourceFile": "tests/fixtures/handlers-app/src/services/UserService.ts"
+      },
+      "handler": "defaultUserService"
+    },
+    {
+      "id": "fn_promote_user_eammpkbe",
+      "type": "handler",
+      "description": "Execute application handler to promote user1",
+      "examples": [
+        "promote user1",
+        "please promote user1",
+        "can you promote user1"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "40ccfa1497b17643",
+        "sourceFile": "tests/fixtures/handlers-app/src/services/UserService.ts"
+      },
+      "handler": "promoteUser1"
+    },
+    {
+      "id": "fn_promote_user_ajblndmp",
+      "type": "handler",
+      "description": "Execute application handler to promote user2",
+      "examples": [
+        "promote user2",
+        "please promote user2",
+        "can you promote user2"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "091bd3cf764b0aeb",
+        "sourceFile": "tests/fixtures/handlers-app/src/services/UserService.ts"
+      },
+      "handler": "promoteUser2"
+    },
+    {
+      "id": "fn_find_user_moopgmnk",
+      "type": "handler",
+      "description": "Execute application handler to find user1",
+      "examples": [
+        "find user1",
+        "please find user1",
+        "can you find user1"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "ceef6cda3ac928f2",
+        "sourceFile": "tests/fixtures/handlers-app/src/services/UserService.ts"
+      },
+      "handler": "findUser1"
+    },
+    {
+      "id": "fn_find_user_fjimkdpc",
+      "type": "handler",
+      "description": "Execute application handler to find user2",
+      "examples": [
+        "find user2",
+        "please find user2",
+        "can you find user2"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "598ca3f276a7936d",
+        "sourceFile": "tests/fixtures/handlers-app/src/services/UserService.ts"
+      },
+      "handler": "findUser2"
+    },
+    {
+      "id": "fn_activate_user_enomocih",
+      "type": "handler",
+      "description": "Execute application handler to activate user1",
+      "examples": [
+        "activate user1",
+        "please activate user1",
+        "can you activate user1"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "4dece2871cfc4ac5",
+        "sourceFile": "tests/fixtures/handlers-app/src/services/UserService.ts"
+      },
+      "handler": "activateUser1"
+    },
+    {
+      "id": "fn_activate_user_gagneeni",
+      "type": "handler",
+      "description": "Execute application handler to activate user2",
+      "examples": [
+        "activate user2",
+        "please activate user2",
+        "can you activate user2"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "606d44d801abcbe8",
+        "sourceFile": "tests/fixtures/handlers-app/src/services/UserService.ts"
+      },
+      "handler": "activateUser2"
+    },
+    {
+      "id": "fn_activate_user_hdmfngnh",
+      "type": "handler",
+      "description": "Execute application handler to activate user3",
+      "examples": [
+        "activate user3",
+        "please activate user3",
+        "can you activate user3"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "73c5d6d7a8982d64",
+        "sourceFile": "tests/fixtures/handlers-app/src/services/UserService.ts"
+      },
+      "handler": "activateUser3"
+    },
+    {
+      "id": "fn_create_order_cjohenlf",
+      "type": "handler",
+      "description": "Execute application handler to create order",
+      "examples": [
+        "create order",
+        "please create order",
+        "can you create order"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "29e74db576a02730",
+        "sourceFile": "tests/fixtures/handlers-app/src/utils/api.ts"
+      },
+      "handler": "createOrder"
+    },
+    {
+      "id": "fn_update_order_nlejgkcg",
+      "type": "handler",
+      "description": "Execute application handler to update order",
+      "examples": [
+        "update order",
+        "please update order",
+        "can you update order"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "db496a26baedde35",
+        "sourceFile": "tests/fixtures/handlers-app/src/utils/api.ts"
+      },
+      "handler": "updateOrder"
+    },
+    {
+      "id": "fn_delete_order_kjfcddih",
+      "type": "handler",
+      "description": "Execute application handler to delete order",
+      "examples": [
+        "delete order",
+        "please delete order",
+        "can you delete order"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "a95233878b55ff64",
+        "sourceFile": "tests/fixtures/handlers-app/src/utils/api.ts"
+      },
+      "handler": "deleteOrder"
+    },
+    {
+      "id": "fn_get_order_kkgedmbl",
+      "type": "handler",
+      "description": "Execute application handler to get order",
+      "examples": [
+        "get order",
+        "please get order",
+        "can you get order"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "aa643c1b66af3f02",
+        "sourceFile": "tests/fixtures/handlers-app/src/utils/api.ts"
+      },
+      "handler": "getOrder"
+    },
+    {
+      "id": "fn_fetch_order_hlaefpgi",
+      "type": "handler",
+      "description": "Execute application handler to fetch order",
+      "examples": [
+        "fetch order",
+        "please fetch order",
+        "can you fetch order"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "7b045f6814cdb207",
+        "sourceFile": "tests/fixtures/handlers-app/src/utils/api.ts"
+      },
+      "handler": "fetchOrder"
+    },
+    {
+      "id": "fn_get_server_side_props_nhkancoh",
+      "type": "handler",
+      "description": "Execute application handler to get server side props",
+      "examples": [
+        "get server side props",
+        "please get server side props",
+        "can you get server side props"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "d7a0d2e7f9beeab3",
+        "sourceFile": "tests/fixtures/nextjs-pages-app/pages/blog/[slug].tsx"
+      },
+      "handler": "getServerSideProps"
+    },
+    {
+      "id": "fn_get_server_side_props_jpcjccfd",
+      "type": "handler",
+      "description": "Execute application handler to get server side props",
+      "examples": [
+        "get server side props",
+        "please get server side props",
+        "can you get server side props"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "9f292253e42dd36d",
+        "sourceFile": "tests/fixtures/nextjs-pages-app/pages/docs/[...slug].tsx"
+      },
+      "handler": "getServerSideProps"
+    },
+    {
+      "id": "fn_get_server_side_props_ldonhook",
+      "type": "handler",
+      "description": "Execute application handler to get server side props",
+      "examples": [
+        "get server side props",
+        "please get server side props",
+        "can you get server side props"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "b3ed7eea3b0a25bf",
+        "sourceFile": "tests/fixtures/nextjs-pages-app/pages/users/[id]/profile.tsx"
+      },
+      "handler": "getServerSideProps"
+    },
+    {
+      "id": "fn_handle_click_klmjolin",
+      "type": "handler",
+      "description": "Execute application handler to click",
+      "examples": [
+        "click",
+        "please click",
+        "can you click"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "abc9eb8d7c1b43df",
+        "sourceFile": "tests/fixtures/valid/simple.tsx"
+      },
+      "handler": "handleClick"
+    },
+    {
+      "id": "ui_home_link_llaiajik",
+      "type": "ui_action",
+      "description": "Interact with the Home link element",
+      "examples": [
+        "home",
+        "click home",
+        "press home"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "bb08098afff915be",
+        "sourceFile": "tests/fixtures/combined-app/App.tsx"
+      },
+      "elementType": "link",
+      "label": "Home",
+      "associatedComponent": "Home"
+    },
+    {
+      "id": "ui_tasks_link_kaffmfnn",
+      "type": "ui_action",
+      "description": "Interact with the Tasks link element",
+      "examples": [
+        "tasks",
+        "click tasks",
+        "press tasks"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "a055c5dd72b4879b",
+        "sourceFile": "tests/fixtures/combined-app/App.tsx"
+      },
+      "elementType": "link",
+      "label": "Tasks",
+      "associatedComponent": "Home"
+    },
+    {
+      "id": "ui_delete_task_button_ckfchmpo",
+      "type": "ui_action",
+      "description": "Interact with the Delete Task button element",
+      "examples": [
+        "delete task",
+        "click delete task",
+        "press delete task"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "2a527cfe980928e1",
+        "sourceFile": "tests/fixtures/combined-app/App.tsx"
+      },
+      "elementType": "button",
+      "label": "Delete Task",
+      "associatedComponent": "TaskList"
+    },
+    {
+      "id": "ui_task_form_form_kkcepona",
+      "type": "ui_action",
+      "description": "Interact with the TaskForm form element",
+      "examples": [
+        "taskform",
+        "click taskform",
+        "press taskform"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "aa24fed0257e1d9e",
+        "sourceFile": "tests/fixtures/combined-app/App.tsx"
+      },
+      "elementType": "form",
+      "label": "TaskForm"
+    },
+    {
+      "id": "ui_task_title_input_bmmjmpim",
+      "type": "ui_action",
+      "description": "Interact with the Task Title input element",
+      "examples": [
+        "task title",
+        "click task title",
+        "press task title"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "1cc9cf8c087fde03",
+        "sourceFile": "tests/fixtures/combined-app/TaskForm.tsx"
+      },
+      "elementType": "input",
+      "label": "Task Title",
+      "associatedComponent": "TaskForm"
+    },
+    {
+      "id": "ui_task_description_input_iagflgli",
+      "type": "ui_action",
+      "description": "Interact with the Task Description input element",
+      "examples": [
+        "task description",
+        "click task description",
+        "press task description"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "8065b6b872749317",
+        "sourceFile": "tests/fixtures/combined-app/TaskForm.tsx"
+      },
+      "elementType": "input",
+      "label": "Task Description",
+      "associatedComponent": "TaskForm"
+    },
+    {
+      "id": "ui_save_task_button_addfkeab",
+      "type": "ui_action",
+      "description": "Interact with the Save Task button element",
+      "examples": [
+        "save task",
+        "click save task",
+        "press save task"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "0335a401b7c31729",
+        "sourceFile": "tests/fixtures/combined-app/TaskForm.tsx"
+      },
+      "elementType": "button",
+      "label": "Save Task",
+      "associatedComponent": "TaskForm"
+    },
+    {
+      "id": "ui_task_form_form_gibihcac",
+      "type": "ui_action",
+      "description": "Interact with the TaskForm form element",
+      "examples": [
+        "taskform",
+        "click taskform",
+        "press taskform"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "681872028e79a817",
+        "sourceFile": "tests/fixtures/combined-app/TaskForm.tsx"
+      },
+      "elementType": "form",
+      "label": "TaskForm",
+      "associatedComponent": "TaskForm"
+    },
+    {
+      "id": "ui_button_pmemdnao",
+      "type": "ui_action",
+      "description": "Interact with the 1 button element",
+      "examples": [
+        "1",
+        "click 1",
+        "press 1"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "fc4c3d0eae0a18ca",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Button.tsx"
+      },
+      "elementType": "button",
+      "label": "1",
+      "associatedComponent": "Button"
+    },
+    {
+      "id": "ui_button_gajgcnek",
+      "type": "ui_action",
+      "description": "Interact with the 2 button element",
+      "examples": [
+        "2",
+        "click 2",
+        "press 2"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "60962d4aa0051cdb",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Button.tsx"
+      },
+      "elementType": "button",
+      "label": "2",
+      "associatedComponent": "Button"
+    },
+    {
+      "id": "ui_button_kbgmabnm",
+      "type": "ui_action",
+      "description": "Interact with the 3 button element",
+      "examples": [
+        "3",
+        "click 3",
+        "press 3"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "a16c01dc304e51ec",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Button.tsx"
+      },
+      "elementType": "button",
+      "label": "3",
+      "associatedComponent": "Button"
+    },
+    {
+      "id": "ui_button_hibaikhl",
+      "type": "ui_action",
+      "description": "Interact with the 4 button element",
+      "examples": [
+        "4",
+        "click 4",
+        "press 4"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "78108a7bfec5955a",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Button.tsx"
+      },
+      "elementType": "button",
+      "label": "4",
+      "associatedComponent": "Button"
+    },
+    {
+      "id": "ui_button_igbbbacp",
+      "type": "ui_action",
+      "description": "Interact with the 5 button element",
+      "examples": [
+        "5",
+        "click 5",
+        "press 5"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "8611102f4be4c3ad",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Button.tsx"
+      },
+      "elementType": "button",
+      "label": "5",
+      "associatedComponent": "Button"
+    },
+    {
+      "id": "ui_button_ajljdgei",
+      "type": "ui_action",
+      "description": "Interact with the 6 button element",
+      "examples": [
+        "6",
+        "click 6",
+        "press 6"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "09b93648e4c598d2",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Button.tsx"
+      },
+      "elementType": "button",
+      "label": "6",
+      "associatedComponent": "Button"
+    },
+    {
+      "id": "ui_button_gcohaabc",
+      "type": "ui_action",
+      "description": "Interact with the 7 button element",
+      "examples": [
+        "7",
+        "click 7",
+        "press 7"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "62e700128182d21b",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Button.tsx"
+      },
+      "elementType": "button",
+      "label": "7",
+      "associatedComponent": "Button"
+    },
+    {
+      "id": "ui_button_lnfhhlcj",
+      "type": "ui_action",
+      "description": "Interact with the 8 button element",
+      "examples": [
+        "8",
+        "click 8",
+        "press 8"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "bd577b29a44409c2",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Button.tsx"
+      },
+      "elementType": "button",
+      "label": "8",
+      "associatedComponent": "Button"
+    },
+    {
+      "id": "ui_button_hpggfjie",
+      "type": "ui_action",
+      "description": "Interact with the 9 button element",
+      "examples": [
+        "9",
+        "click 9",
+        "press 9"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "7f665984e71f220d",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Button.tsx"
+      },
+      "elementType": "button",
+      "label": "9",
+      "associatedComponent": "Button"
+    },
+    {
+      "id": "ui_button_foakgkjl",
+      "type": "ui_action",
+      "description": "Interact with the 10 button element",
+      "examples": [
+        "10",
+        "click 10",
+        "press 10"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "5e0a6a9b1523cb03",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Button.tsx"
+      },
+      "elementType": "button",
+      "label": "10",
+      "associatedComponent": "Button"
+    },
+    {
+      "id": "ui_button_emioamak",
+      "type": "ui_action",
+      "description": "Interact with the 11 button element",
+      "examples": [
+        "11",
+        "click 11",
+        "press 11"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "4c8e0c0a71369a6c",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Button.tsx"
+      },
+      "elementType": "button",
+      "label": "11",
+      "associatedComponent": "Button"
+    },
+    {
+      "id": "ui_form_form_pagekcec",
+      "type": "ui_action",
+      "description": "Interact with the form form element",
+      "examples": [
+        "form",
+        "click form",
+        "press form"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "f064a242d904a058",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Form.tsx"
+      },
+      "elementType": "form",
+      "label": "form",
+      "associatedComponent": "Form"
+    },
+    {
+      "id": "ui_form_form_fogcjjhl",
+      "type": "ui_action",
+      "description": "Interact with the form form element",
+      "examples": [
+        "form",
+        "click form",
+        "press form"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "5e62997bca5fa909",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Form.tsx"
+      },
+      "elementType": "form",
+      "label": "form",
+      "associatedComponent": "Form"
+    },
+    {
+      "id": "ui_form_form_gomnbibc",
+      "type": "ui_action",
+      "description": "Interact with the form form element",
+      "examples": [
+        "form",
+        "click form",
+        "press form"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "6ecd181242720c5e",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Form.tsx"
+      },
+      "elementType": "form",
+      "label": "form",
+      "associatedComponent": "Form"
+    },
+    {
+      "id": "ui_form_form_ibegkgfh",
+      "type": "ui_action",
+      "description": "Interact with the form form element",
+      "examples": [
+        "form",
+        "click form",
+        "press form"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "8146a657f84e068d",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Form.tsx"
+      },
+      "elementType": "form",
+      "label": "form",
+      "associatedComponent": "Form"
+    },
+    {
+      "id": "ui_form_form_cafflhcl",
+      "type": "ui_action",
+      "description": "Interact with the form form element",
+      "examples": [
+        "form",
+        "click form",
+        "press form"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "2055b72b7aab8005",
+        "sourceFile": "tests/fixtures/handlers-app/src/components/Form.tsx"
+      },
+      "elementType": "form",
+      "label": "form",
+      "associatedComponent": "Form"
+    },
+    {
+      "id": "ui_submit_button_noajpphk",
+      "type": "ui_action",
+      "description": "Interact with the Submit button element",
+      "examples": [
+        "submit",
+        "click submit",
+        "press submit"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "de09ff7a1aba811b",
+        "sourceFile": "tests/fixtures/ui-app/ButtonsAndLinks.tsx"
+      },
+      "elementType": "button",
+      "label": "Submit",
+      "associatedComponent": "ButtonsAndLinks"
+    },
+    {
+      "id": "ui_cancel_button_fppnfmai",
+      "type": "ui_action",
+      "description": "Interact with the Cancel button element",
+      "examples": [
+        "cancel",
+        "click cancel",
+        "press cancel"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "5ffd5c08dde7eeaa",
+        "sourceFile": "tests/fixtures/ui-app/ButtonsAndLinks.tsx"
+      },
+      "elementType": "button",
+      "label": "Cancel",
+      "associatedComponent": "ButtonsAndLinks"
+    },
+    {
+      "id": "ui_t_login_button_button_gokemkgk",
+      "type": "ui_action",
+      "description": "Interact with the t('login.button') button element",
+      "examples": [
+        "t('login.button')",
+        "click t('login.button')",
+        "press t('login.button')"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "6ea4ca6a9a76c06c",
+        "sourceFile": "tests/fixtures/ui-app/ButtonsAndLinks.tsx"
+      },
+      "elementType": "button",
+      "label": "t('login.button')",
+      "associatedComponent": "ButtonsAndLinks"
+    },
+    {
+      "id": "ui_home_link_blmolkim",
+      "type": "ui_action",
+      "description": "Interact with the Home link element",
+      "examples": [
+        "home",
+        "click home",
+        "press home"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "1bceba8c57d42d5b",
+        "sourceFile": "tests/fixtures/ui-app/ButtonsAndLinks.tsx"
+      },
+      "elementType": "link",
+      "label": "Home",
+      "associatedComponent": "ButtonsAndLinks"
+    },
+    {
+      "id": "ui_about_us_link_dncichim",
+      "type": "ui_action",
+      "description": "Interact with the About Us link element",
+      "examples": [
+        "about us",
+        "click about us",
+        "press about us"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "3d28278c94cb0561",
+        "sourceFile": "tests/fixtures/ui-app/ButtonsAndLinks.tsx"
+      },
+      "elementType": "link",
+      "label": "About Us",
+      "associatedComponent": "ButtonsAndLinks"
+    },
+    {
+      "id": "ui_t_profile_link_link_gkfigfhl",
+      "type": "ui_action",
+      "description": "Interact with the t('profile.link') link element",
+      "examples": [
+        "t('profile.link')",
+        "click t('profile.link')",
+        "press t('profile.link')"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "6a58657bfefc1dce",
+        "sourceFile": "tests/fixtures/ui-app/ButtonsAndLinks.tsx"
+      },
+      "elementType": "link",
+      "label": "t('profile.link')",
+      "associatedComponent": "ButtonsAndLinks"
+    },
+    {
+      "id": "ui_children_button_ejfmanif",
+      "type": "ui_action",
+      "description": "Interact with the children button element",
+      "examples": [
+        "children",
+        "click children",
+        "press children"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "495c0d8594366e15",
+        "sourceFile": "tests/fixtures/ui-app/ButtonsAndLinks.tsx"
+      },
+      "elementType": "button",
+      "label": "children",
+      "associatedComponent": "Button"
+    },
+    {
+      "id": "ui_email_address_input_ejeimmde",
+      "type": "ui_action",
+      "description": "Interact with the Email Address input element",
+      "examples": [
+        "email address",
+        "click email address",
+        "press email address"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "4948cc34d8ee068f",
+        "sourceFile": "tests/fixtures/ui-app/ContactForm.tsx"
+      },
+      "elementType": "input",
+      "label": "Email Address",
+      "associatedComponent": "ContactForm"
+    },
+    {
+      "id": "ui_subject_input_pmbjbnll",
+      "type": "ui_action",
+      "description": "Interact with the Subject input element",
+      "examples": [
+        "subject",
+        "click subject",
+        "press subject"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "fc191dbb848c0c8c",
+        "sourceFile": "tests/fixtures/ui-app/ContactForm.tsx"
+      },
+      "elementType": "input",
+      "label": "Subject",
+      "associatedComponent": "ContactForm"
+    },
+    {
+      "id": "ui_message_input_cbkanicc",
+      "type": "ui_action",
+      "description": "Interact with the message input element",
+      "examples": [
+        "message",
+        "click message",
+        "press message"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "21a0d8220d52bb27",
+        "sourceFile": "tests/fixtures/ui-app/ContactForm.tsx"
+      },
+      "elementType": "input",
+      "label": "message",
+      "associatedComponent": "ContactForm"
+    },
+    {
+      "id": "ui_subscribe_to_newsletter_input_ekdaadfe",
+      "type": "ui_action",
+      "description": "Interact with the Subscribe to newsletter input element",
+      "examples": [
+        "subscribe to newsletter",
+        "click subscribe to newsletter",
+        "press subscribe to newsletter"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "4a300354b0a4c8d1",
+        "sourceFile": "tests/fixtures/ui-app/ContactForm.tsx"
+      },
+      "elementType": "input",
+      "label": "Subscribe to newsletter",
+      "associatedComponent": "ContactForm"
+    },
+    {
+      "id": "ui_email_me_input_lciojamb",
+      "type": "ui_action",
+      "description": "Interact with the Email me input element",
+      "examples": [
+        "email me",
+        "click email me",
+        "press email me"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "b28e90c1f11daf6e",
+        "sourceFile": "tests/fixtures/ui-app/ContactForm.tsx"
+      },
+      "elementType": "input",
+      "label": "Email me",
+      "associatedComponent": "ContactForm"
+    },
+    {
+      "id": "ui_send_message_button_cflbehch",
+      "type": "ui_action",
+      "description": "Interact with the Send Message button element",
+      "examples": [
+        "send message",
+        "click send message",
+        "press send message"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "25b147274425a52c",
+        "sourceFile": "tests/fixtures/ui-app/ContactForm.tsx"
+      },
+      "elementType": "button",
+      "label": "Send Message",
+      "associatedComponent": "ContactForm"
+    },
+    {
+      "id": "ui_contact_us_form_gghkdakf",
+      "type": "ui_action",
+      "description": "Interact with the Contact Us form element",
+      "examples": [
+        "contact us",
+        "click contact us",
+        "press contact us"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "667a30a5a4acf97c",
+        "sourceFile": "tests/fixtures/ui-app/ContactForm.tsx"
+      },
+      "elementType": "form",
+      "label": "Contact Us",
+      "associatedComponent": "ContactForm"
+    },
+    {
+      "id": "ui_payment_details_form_hbdgaalj",
+      "type": "ui_action",
+      "description": "Interact with the Payment Details form element",
+      "examples": [
+        "payment details",
+        "click payment details",
+        "press payment details"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "713600b92d968e68",
+        "sourceFile": "tests/fixtures/ui-app/CustomUI.tsx"
+      },
+      "elementType": "form",
+      "label": "Payment Details",
+      "associatedComponent": "PaymentForm"
+    },
+    {
+      "id": "ui_credit_card_input_input_mlpnhoie",
+      "type": "ui_action",
+      "description": "Interact with the CreditCardInput input element",
+      "examples": [
+        "creditcardinput",
+        "click creditcardinput",
+        "press creditcardinput"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "cbfd7e84225deb44",
+        "sourceFile": "tests/fixtures/ui-app/CustomUI.tsx"
+      },
+      "elementType": "input",
+      "label": "CreditCardInput",
+      "associatedComponent": "PaymentForm"
+    },
+    {
+      "id": "ui_country_select_input_ocdgpbcj",
+      "type": "ui_action",
+      "description": "Interact with the CountrySelect input element",
+      "examples": [
+        "countryselect",
+        "click countryselect",
+        "press countryselect"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "e236f129425534cf",
+        "sourceFile": "tests/fixtures/ui-app/CustomUI.tsx"
+      },
+      "elementType": "input",
+      "label": "CountrySelect",
+      "associatedComponent": "PaymentForm"
+    },
+    {
+      "id": "ui_input_input_bnkodaic",
+      "type": "ui_action",
+      "description": "Interact with the input input element",
+      "examples": [
+        "input",
+        "click input",
+        "press input"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "1dae3082b98873bc",
+        "sourceFile": "tests/fixtures/ui-app/CustomUI.tsx"
+      },
+      "elementType": "input",
+      "label": "input",
+      "associatedComponent": "CreditCardInput"
+    },
+    {
+      "id": "ui_select_input_aefekoaa",
+      "type": "ui_action",
+      "description": "Interact with the select input element",
+      "examples": [
+        "select",
+        "click select",
+        "press select"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "0454ae008e6d79b1",
+        "sourceFile": "tests/fixtures/ui-app/CustomUI.tsx"
+      },
+      "elementType": "input",
+      "label": "select",
+      "associatedComponent": "CountrySelect"
+    },
+    {
+      "id": "ui_clickable_div_button_ahehgemb",
+      "type": "ui_action",
+      "description": "Interact with the Clickable Div button element",
+      "examples": [
+        "clickable div",
+        "click clickable div",
+        "press clickable div"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "074764c1dba0b25d",
+        "sourceFile": "tests/fixtures/ui-app/CustomUI.tsx"
+      },
+      "elementType": "button",
+      "label": "Clickable Div",
+      "associatedComponent": "CustomUI"
+    },
+    {
+      "id": "ui_payment_form_form_mlnhacnl",
+      "type": "ui_action",
+      "description": "Interact with the PaymentForm form element",
+      "examples": [
+        "paymentform",
+        "click paymentform",
+        "press paymentform"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "cbd702dbfafe4584",
+        "sourceFile": "tests/fixtures/ui-app/CustomUI.tsx"
+      },
+      "elementType": "form",
+      "label": "PaymentForm",
+      "associatedComponent": "CustomUI"
+    },
+    {
+      "id": "ui_profile_dropdown_menu_aeapoidd",
+      "type": "ui_action",
+      "description": "Interact with the ProfileDropdown menu element",
+      "examples": [
+        "profiledropdown",
+        "click profiledropdown",
+        "press profiledropdown"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "040fe833124ae915",
+        "sourceFile": "tests/fixtures/ui-app/MenuNested.tsx"
+      },
+      "elementType": "menu",
+      "label": "ProfileDropdown",
+      "associatedComponent": "MenuNested"
+    },
+    {
+      "id": "ui_my_profile_menuitem_dglbhcog",
+      "type": "ui_action",
+      "description": "Interact with the My Profile menuitem element",
+      "examples": [
+        "my profile",
+        "click my profile",
+        "press my profile"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "36b172e6564b5edf",
+        "sourceFile": "tests/fixtures/ui-app/MenuNested.tsx"
+      },
+      "elementType": "menuitem",
+      "label": "My Profile",
+      "associatedComponent": "MenuNested"
+    },
+    {
+      "id": "ui_logout_menuitem_idokpagg",
+      "type": "ui_action",
+      "description": "Interact with the Logout menuitem element",
+      "examples": [
+        "logout",
+        "click logout",
+        "press logout"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "83eaf066872b43eb",
+        "sourceFile": "tests/fixtures/ui-app/MenuNested.tsx"
+      },
+      "elementType": "menuitem",
+      "label": "Logout",
+      "associatedComponent": "MenuNested"
+    },
+    {
+      "id": "ui_main_nav_menu_joahbhnl",
+      "type": "ui_action",
+      "description": "Interact with the main-nav menu element",
+      "examples": [
+        "main-nav",
+        "click main-nav",
+        "press main-nav"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "9e0717db722ab5a7",
+        "sourceFile": "tests/fixtures/ui-app/MenuNested.tsx"
+      },
+      "elementType": "menu",
+      "label": "main-nav",
+      "associatedComponent": "MenuNested"
+    },
+    {
+      "id": "ui_dashboard_menuitem_ejkmgomh",
+      "type": "ui_action",
+      "description": "Interact with the Dashboard menuitem element",
+      "examples": [
+        "dashboard",
+        "click dashboard",
+        "press dashboard"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "49ac6ec75cb1a9ff",
+        "sourceFile": "tests/fixtures/ui-app/MenuNested.tsx"
+      },
+      "elementType": "menuitem",
+      "label": "Dashboard",
+      "associatedComponent": "MenuNested"
+    },
+    {
+      "id": "ui_settings_menuitem_pidbolah",
+      "type": "ui_action",
+      "description": "Interact with the Settings menuitem element",
+      "examples": [
+        "settings",
+        "click settings",
+        "press settings"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "f831eb0795e188a8",
+        "sourceFile": "tests/fixtures/ui-app/MenuNested.tsx"
+      },
+      "elementType": "menuitem",
+      "label": "Settings",
+      "associatedComponent": "MenuNested"
+    },
+    {
+      "id": "ui_click_me_count_button_beigghej",
+      "type": "ui_action",
+      "description": "Interact with the Click me (count) button element",
+      "examples": [
+        "click me (count)",
+        "click click me (count)",
+        "press click me (count)"
+      ],
+      "slots": [],
+      "meta": {
+        "addedAt": "2026-06-21T12:30:11.163Z",
+        "sourceCapabilityId": "148667494689115b",
+        "sourceFile": "tests/fixtures/valid/simple.tsx"
+      },
+      "elementType": "button",
+      "label": "Click me (count)",
+      "associatedComponent": "SimpleComponent"
     }
   ]
 }

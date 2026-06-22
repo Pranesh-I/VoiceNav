@@ -22,11 +22,23 @@ const capabilities = JSON.parse(
 const registry =
   buildRegistry(capabilities);
 
+// console.log(registry.actions.length);
+// console.log(registry.checksum);
+// console.log(
+//   JSON.stringify(
+//     capabilities[62],
+//     null,
+//     2,
+//   ),
+// );
+
 console.log(registry.actions.length);
+
 console.log(registry.checksum);
+
 console.log(
   JSON.stringify(
-    capabilities[62],
+    registry.actions[0],
     null,
     2,
   ),
